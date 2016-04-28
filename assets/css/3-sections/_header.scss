@@ -1,3 +1,43 @@
-p {
-  color: blue;
+.home-wrap header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #000;
+
+  a {
+    color: $header-text;
+    text-decoration: none;
+
+    &:hover, &:active {
+      color: $header-hover;
+    }
+  }
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+  color: black;
+}
+
+#logo {
+  color: $logo;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid #924545;
+
+    .svg-social {
+      width: 23px;
+      height: 23px;
+      stroke: none;
+      stroke-width: 1;
+      fill: $social-color;
+      padding: 0;
+    }
+
 }
