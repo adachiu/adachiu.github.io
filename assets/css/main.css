@@ -429,11 +429,11 @@ html {
     color: #757b81;
     text-decoration: none;
     padding: 0 10px; }
-    /* line 14, 3-sections/_header.scss */
+    /* line 13, 3-sections/_header.scss */
     .home-wrap header a:hover, .home-wrap header a:active {
       color: lightgrey; }
 
-/* line 20, 3-sections/_header.scss */
+/* line 19, 3-sections/_header.scss */
 .logo {
   display: -webkit-box;
   display: -webkit-flex;
@@ -443,11 +443,11 @@ html {
   padding: 0;
   color: black; }
 
-/* line 27, 3-sections/_header.scss */
+/* line 26, 3-sections/_header.scss */
 #logo {
   color: black; }
 
-/* line 31, 3-sections/_header.scss */
+/* line 30, 3-sections/_header.scss */
 .social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -463,32 +463,48 @@ html {
       -ms-flex-align: center;
           align-items: center;
   border: 5px solid #924545; }
-  /* line 38, 3-sections/_header.scss */
+  /* line 37, 3-sections/_header.scss */
   .social .svg-social {
     padding: 0;
     stroke: none;
     stroke-width: 1;
     fill: #757b81; }
 
-/* line 46, 3-sections/_header.scss */
+/* line 45, 3-sections/_header.scss */
 #svg-twitter {
   width: 22px;
   height: 22px; }
 
-/* line 51, 3-sections/_header.scss */
+/* line 50, 3-sections/_header.scss */
+a svg:hover #twitter-logo {
+  fill: #55acee; }
+
+/* line 54, 3-sections/_header.scss */
 #svg-dribbble {
   width: 19px;
   height: 19px; }
 
-/* line 56, 3-sections/_header.scss */
+/* line 59, 3-sections/_header.scss */
+a svg:hover #dribbble-logo {
+  fill: #ea4c89; }
+
+/* line 63, 3-sections/_header.scss */
 #svg-instagram {
   width: 23px;
   height: 23px; }
 
-/* line 61, 3-sections/_header.scss */
+/* line 68, 3-sections/_header.scss */
+a svg:hover #instagram-logo {
+  fill: #1b5988; }
+
+/* line 72, 3-sections/_header.scss */
 #svg-linkedin {
   width: 23px;
   height: 23px; }
+
+/* line 77, 3-sections/_header.scss */
+a svg:hover #linkedin-logo {
+  fill: #0077B5; }
 
 /* line 3, 3-sections/_home-footer.scss */
 .wrapper-for-content-outside-of-footer {

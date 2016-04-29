@@ -10,7 +10,6 @@
     text-decoration: none;
     padding: 0 10px;
 
-
     &:hover, &:active {
       color: $header-hover;
     }
@@ -48,9 +47,17 @@
   height: 22px;
 }
 
+a svg:hover #twitter-logo {
+  fill: $twitter-color;
+}
+
 #svg-dribbble {
   width: 19px;
   height: 19px;
+}
+
+a svg:hover #dribbble-logo {
+  fill: $dribbble-color;
 }
 
 #svg-instagram {
@@ -58,7 +65,15 @@
   height: 23px;
 }
 
+a svg:hover #instagram-logo {
+  fill: $instagram-color;
+}
+
 #svg-linkedin {
   width: 23px;
   height: 23px;
+}
+
+a svg:hover #linkedin-logo {
+  fill: $linkedin-color;
 }
