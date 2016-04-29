@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);
 /* line 9, 0-tools/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -401,6 +402,18 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/* line 9, 1-base/_base.scss */
+html, body {
+  min-height: 100vh;
+  background: #ffffff; }
+
+/* line 14, 1-base/_base.scss */
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #757b81; }
+
 /*
 @import "2-modules/example";
  */
@@ -431,7 +444,7 @@ html {
     padding: 0 10px; }
     /* line 13, 3-sections/_header.scss */
     .home-wrap header a:hover, .home-wrap header a:active {
-      color: lightgrey; }
+      color: #d3d3d3; }
 
 /* line 19, 3-sections/_header.scss */
 .logo {
@@ -445,9 +458,13 @@ html {
 
 /* line 26, 3-sections/_header.scss */
 #logo {
-  color: black; }
+  color: #000000;
+  text-transform: uppercase; }
+  /* line 31, 3-sections/_header.scss */
+  #logo:hover {
+    color: #d3d3d3; }
 
-/* line 30, 3-sections/_header.scss */
+/* line 36, 3-sections/_header.scss */
 .social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -461,48 +478,47 @@ html {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
-  border: 5px solid #924545; }
-  /* line 37, 3-sections/_header.scss */
+          align-items: center; }
+  /* line 42, 3-sections/_header.scss */
   .social .svg-social {
     padding: 0;
     stroke: none;
     stroke-width: 1;
     fill: #757b81; }
 
-/* line 45, 3-sections/_header.scss */
+/* line 50, 3-sections/_header.scss */
 #svg-twitter {
   width: 22px;
   height: 22px; }
 
-/* line 50, 3-sections/_header.scss */
+/* line 55, 3-sections/_header.scss */
 a svg:hover #twitter-logo {
   fill: #55acee; }
 
-/* line 54, 3-sections/_header.scss */
+/* line 59, 3-sections/_header.scss */
 #svg-dribbble {
   width: 19px;
   height: 19px; }
 
-/* line 59, 3-sections/_header.scss */
+/* line 64, 3-sections/_header.scss */
 a svg:hover #dribbble-logo {
   fill: #ea4c89; }
 
-/* line 63, 3-sections/_header.scss */
+/* line 68, 3-sections/_header.scss */
 #svg-instagram {
   width: 23px;
   height: 23px; }
 
-/* line 68, 3-sections/_header.scss */
+/* line 73, 3-sections/_header.scss */
 a svg:hover #instagram-logo {
   fill: #1b5988; }
 
-/* line 72, 3-sections/_header.scss */
+/* line 77, 3-sections/_header.scss */
 #svg-linkedin {
   width: 23px;
   height: 23px; }
 
-/* line 77, 3-sections/_header.scss */
+/* line 82, 3-sections/_header.scss */
 a svg:hover #linkedin-logo {
   fill: #0077B5; }
 

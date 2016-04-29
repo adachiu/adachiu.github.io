@@ -1,0 +1,19 @@
+// Typography
+
+// Links
+
+// Selection colors
+
+// Basic Styles
+
+html, body {
+  min-height: 100vh;
+  background: $bg-color;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $body-text;
+}
