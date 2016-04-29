@@ -419,34 +419,35 @@ html {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   border: 5px solid #000; }
-  /* line 7, 3-sections/_header.scss */
+  /* line 8, 3-sections/_header.scss */
   .home-wrap header a {
     color: #757b81;
-    text-decoration: none; }
-    /* line 11, 3-sections/_header.scss */
+    text-decoration: none;
+    padding: 0 10px; }
+    /* line 14, 3-sections/_header.scss */
     .home-wrap header a:hover, .home-wrap header a:active {
       color: lightgrey; }
 
-/* line 17, 3-sections/_header.scss */
+/* line 20, 3-sections/_header.scss */
 .logo {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 0;
+  margin-right: auto;
   padding: 0;
   color: black; }
 
-/* line 25, 3-sections/_header.scss */
+/* line 27, 3-sections/_header.scss */
 #logo {
   color: black; }
 
-/* line 29, 3-sections/_header.scss */
+/* line 31, 3-sections/_header.scss */
 .social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -462,30 +463,29 @@ html {
       -ms-flex-align: center;
           align-items: center;
   border: 5px solid #924545; }
-  /* line 36, 3-sections/_header.scss */
+  /* line 38, 3-sections/_header.scss */
   .social .svg-social {
-    margin-left: 20px;
     padding: 0;
     stroke: none;
     stroke-width: 1;
     fill: #757b81; }
 
-/* line 45, 3-sections/_header.scss */
+/* line 46, 3-sections/_header.scss */
 #svg-twitter {
   width: 22px;
   height: 22px; }
 
-/* line 50, 3-sections/_header.scss */
+/* line 51, 3-sections/_header.scss */
 #svg-dribbble {
   width: 19px;
   height: 19px; }
 
-/* line 55, 3-sections/_header.scss */
+/* line 56, 3-sections/_header.scss */
 #svg-instagram {
   width: 23px;
   height: 23px; }
 
-/* line 60, 3-sections/_header.scss */
+/* line 61, 3-sections/_header.scss */
 #svg-linkedin {
   width: 23px;
   height: 23px; }
