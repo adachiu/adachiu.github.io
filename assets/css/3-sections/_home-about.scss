@@ -1,0 +1,18 @@
+.section-about {
+  margin: 0;
+  padding: 80px 10%;
+  background-color: $bg-light;
+}
+
+.intro {
+  @include fill-parent;
+  width: 70%;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  color: $body-text;
+}
+
+.sub-intro {
+  font-weight: 100;
+}
