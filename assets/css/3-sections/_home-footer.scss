@@ -6,3 +6,18 @@
   padding: 80px 10%;
   @include background($bg-light);
 }
+
+.button-home {
+  margin-top: 20px;
+  height: 40px;
+  width: 80px;
+  font-size: em(20);
+  font-weight: 100;
+  color: white;
+  background-color: $contact-color;
+
+  &:hover, &:active {
+    color: $header-text;
+    background-color: $bg-light;
+  }
+}

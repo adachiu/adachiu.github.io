@@ -416,24 +416,64 @@ h2 {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-size: 2.5em; }
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #000000; }
 
-/* line 19, 1-base/_base.scss */
+/* line 21, 1-base/_base.scss */
+h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: #000000; }
+
+/* line 32, 1-base/_base.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
 
-/* line 29, 1-base/_base.scss */
+/* line 44, 1-base/_base.scss */
 html, body {
   min-height: 100vh;
   background: #ffffff; }
 
-/* line 34, 1-base/_base.scss */
+/* line 49, 1-base/_base.scss */
 body {
   font-size: 0.875em;
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   color: #757b81; }
+
+/* line 1, 1-base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"],
+.button {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 /*
 @import "2-modules/example";
@@ -581,10 +621,7 @@ a svg:hover #linkedin-logo {
       -ms-flex-align: center;
           align-items: center;
   width: auto;
-  height: 500px;
-  color: #000000;
-  text-transform: uppercase;
-  letter-spacing: 2px; }
+  height: 500px; }
 
 /* line 1, 3-sections/_home-footer.scss */
 .footer {
@@ -608,3 +645,17 @@ a svg:hover #linkedin-logo {
   padding: 80px 10%;
   background: #f2f2f2;
   background: #f2f2f2; }
+
+/* line 10, 3-sections/_home-footer.scss */
+.button-home {
+  margin-top: 20px;
+  height: 40px;
+  width: 80px;
+  font-size: 1.25em;
+  font-weight: 100;
+  color: white;
+  background-color: #ea4c89; }
+  /* line 19, 3-sections/_home-footer.scss */
+  .button-home:hover, .button-home:active {
+    color: #757b81;
+    background-color: #f2f2f2; }
