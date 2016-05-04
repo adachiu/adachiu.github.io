@@ -4,6 +4,6 @@ title: Contact
 permalink: /Contact/
 ---
 
-<div>
-  <p>Hey feel free to email me</p>
-</div>
+  <div class="home-wrap">
+    {% include header.html %}
+  </div>

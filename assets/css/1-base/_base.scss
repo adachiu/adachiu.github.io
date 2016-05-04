@@ -1,8 +1,22 @@
 // Typography
-h1, h2 {
+h1 {
   font-weight: 700;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-size: em(30);
+}
+
+h2 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: em(40);
+}
+
+
+a {
   text-decoration: none;
 }
 
@@ -18,7 +32,7 @@ html, body {
 }
 
 body {
-  font-size: 14px;
+  font-size: em(14);
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
