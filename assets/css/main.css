@@ -628,10 +628,10 @@ a svg:hover #linkedin-logo {
 
 /* line 20, 3-sections/_home-experiments.scss */
 .parallax-background {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background: url("/assets/img/elements.png") repeat;
   background-position: top;
   background-size: cover;
-  height: 60em;
+  height: 45em;
   left: 0;
   position: absolute;
   top: -10em;
