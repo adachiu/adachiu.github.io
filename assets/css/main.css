@@ -451,29 +451,33 @@ body {
   text-decoration: none;
   color: #757b81; }
 
-/* line 1, 1-base/_buttons.scss */
-button, input[type="button"], input[type="reset"], input[type="submit"],
-.button {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+/* General button style (reset) */
+/* line 2, 1-base/_buttons.scss */
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 50px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+/* line 22, 1-base/_buttons.scss */
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
 
 /*
 @import "2-modules/example";
@@ -646,16 +650,24 @@ a svg:hover #linkedin-logo {
   background: #f2f2f2;
   background: #f2f2f2; }
 
-/* line 10, 3-sections/_home-footer.scss */
-.button-home {
-  margin-top: 20px;
-  height: 40px;
-  width: 80px;
-  font-size: 1.25em;
-  font-weight: 100;
-  color: white;
-  background-color: #ea4c89; }
-  /* line 19, 3-sections/_home-footer.scss */
-  .button-home:hover, .button-home:active {
-    color: #757b81;
-    background-color: #f2f2f2; }
+/* Button 6 */
+/* line 11, 3-sections/_home-footer.scss */
+.btn-6 {
+  color: #fff;
+  background: #226fbe;
+  -webkit-transition: none;
+  transition: none; }
+
+/* line 19, 3-sections/_home-footer.scss */
+.btn-6:active {
+  top: 2px; }
+
+/* Button 6a */
+/* line 24, 3-sections/_home-footer.scss */
+.btn-6a {
+  border: 4px solid #226fbe; }
+
+/* line 28, 3-sections/_home-footer.scss */
+.btn-6a:hover {
+  background: transparent;
+  color: #226fbe; }
