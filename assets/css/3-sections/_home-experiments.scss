@@ -1,7 +1,49 @@
-.experiments {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  height: 500px;
+$parallax-window-height: 30em;
+$parallax-background-height: $parallax-window-height * 2;
+
+.parallax-window {
+  max-height: $parallax-window-height;
+  overflow: hidden;
+  position: relative;
+
+  padding: 0 10%;
+  text-align: center;
+  width: 100%;
+}
+
+.parallax-static-content {
+  padding: 8em 0;
+  position: relative;
+  z-index: 9;
+}
+
+.parallax-background {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background-position: top;
+  background-size: cover;
+  height: $parallax-background-height;
+  left: 0;
+  position: absolute;
+  top: - $parallax-window-height / 3;
+  width: 100%;
+}
+
+.btn-exp {
+	color: #fff;
+	background: $neutral-color;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+
+  border: 4px solid $neutral-color;
+}
+
+.btn-exp:active {
+	top: 2px;
+}
+
+
+.btn-exp:hover {
+	background: transparent;
+	color: $neutral-color;
 }

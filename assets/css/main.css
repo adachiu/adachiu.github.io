@@ -445,11 +445,11 @@ html, body {
 
 /* line 49, 1-base/_base.scss */
 body {
-  font-size: 0.875em;
+  font-size: 1em;
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
-  color: #757b81; }
+  color: #5b5b5b; }
 
 /* General button style (reset) */
 /* line 2, 1-base/_buttons.scss */
@@ -545,50 +545,51 @@ body {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
-  /* line 43, 3-sections/_header.scss */
+          align-items: center;
+  font-size: 0.875em; }
+  /* line 44, 3-sections/_header.scss */
   .social .svg-social {
     padding: 0;
     stroke: none;
     stroke-width: 1;
     fill: #757b81; }
-  /* line 50, 3-sections/_header.scss */
+  /* line 51, 3-sections/_header.scss */
   .social a {
     padding: 0 10px; }
 
-/* line 55, 3-sections/_header.scss */
+/* line 56, 3-sections/_header.scss */
 #svg-twitter {
   width: 22px;
   height: 22px; }
 
-/* line 60, 3-sections/_header.scss */
+/* line 61, 3-sections/_header.scss */
 a svg:hover #twitter-logo {
   fill: #55acee; }
 
-/* line 64, 3-sections/_header.scss */
+/* line 65, 3-sections/_header.scss */
 #svg-dribbble {
   width: 19px;
   height: 19px; }
 
-/* line 69, 3-sections/_header.scss */
+/* line 70, 3-sections/_header.scss */
 a svg:hover #dribbble-logo {
   fill: #ea4c89; }
 
-/* line 73, 3-sections/_header.scss */
+/* line 74, 3-sections/_header.scss */
 #svg-instagram {
   width: 23px;
   height: 23px; }
 
-/* line 78, 3-sections/_header.scss */
+/* line 79, 3-sections/_header.scss */
 a svg:hover #instagram-logo {
   fill: #1b5988; }
 
-/* line 82, 3-sections/_header.scss */
+/* line 83, 3-sections/_header.scss */
 #svg-linkedin {
   width: 23px;
   height: 23px; }
 
-/* line 87, 3-sections/_header.scss */
+/* line 88, 3-sections/_header.scss */
 a svg:hover #linkedin-logo {
   fill: #0077B5; }
 
@@ -604,28 +605,54 @@ a svg:hover #linkedin-logo {
   width: 60%;
   text-align: left;
   font-weight: 700;
-  color: #757b81; }
+  color: #5b5b5b; }
 
 /* line 15, 3-sections/_home-about.scss */
 .sub-intro {
   font-weight: 100; }
 
-/* line 1, 3-sections/_home-experiments.scss */
-.experiments {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: auto;
-  height: 500px; }
+/* line 4, 3-sections/_home-experiments.scss */
+.parallax-window {
+  max-height: 30em;
+  overflow: hidden;
+  position: relative;
+  padding: 0 10%;
+  text-align: center;
+  width: 100%; }
+
+/* line 14, 3-sections/_home-experiments.scss */
+.parallax-static-content {
+  padding: 8em 0;
+  position: relative;
+  z-index: 9; }
+
+/* line 20, 3-sections/_home-experiments.scss */
+.parallax-background {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background-position: top;
+  background-size: cover;
+  height: 60em;
+  left: 0;
+  position: absolute;
+  top: -10em;
+  width: 100%; }
+
+/* line 31, 3-sections/_home-experiments.scss */
+.btn-exp {
+  color: #fff;
+  background: #e5e5e5;
+  -webkit-transition: none;
+  transition: none;
+  border: 4px solid #e5e5e5; }
+
+/* line 41, 3-sections/_home-experiments.scss */
+.btn-exp:active {
+  top: 2px; }
+
+/* line 46, 3-sections/_home-experiments.scss */
+.btn-exp:hover {
+  background: transparent;
+  color: #e5e5e5; }
 
 /* line 1, 3-sections/_home-footer.scss */
 .footer {
@@ -650,24 +677,19 @@ a svg:hover #linkedin-logo {
   background: #f2f2f2;
   background: #f2f2f2; }
 
-/* Button 6 */
-/* line 11, 3-sections/_home-footer.scss */
-.btn-6 {
+/* line 10, 3-sections/_home-footer.scss */
+.btn-contact {
   color: #fff;
   background: #226fbe;
   -webkit-transition: none;
-  transition: none; }
-
-/* line 19, 3-sections/_home-footer.scss */
-.btn-6:active {
-  top: 2px; }
-
-/* Button 6a */
-/* line 24, 3-sections/_home-footer.scss */
-.btn-6a {
+  transition: none;
   border: 4px solid #226fbe; }
 
-/* line 28, 3-sections/_home-footer.scss */
-.btn-6a:hover {
+/* line 20, 3-sections/_home-footer.scss */
+.btn-contact:active {
+  top: 2px; }
+
+/* line 24, 3-sections/_home-footer.scss */
+.btn-contact:hover {
   background: transparent;
   color: #226fbe; }
