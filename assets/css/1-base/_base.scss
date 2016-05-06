@@ -24,7 +24,7 @@ h3 {
   padding: 0;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: em(20);
+  font-size: em(16);
   text-transform: uppercase;
   color: $logo-color;
 }
@@ -33,6 +33,7 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  font-size: $base-font-size;
 }
 
 // Links
