@@ -1,17 +1,50 @@
 .section-about {
-  margin: 0;
-  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 80px 0;
   background-color: $bg-light;
 }
 
+
 .intro {
-  @include fill-parent;
-  width: 60%;
   text-align: left;
   font-weight: 700;
   color: $body-text;
-}
 
-.sub-intro {
-  font-weight: 100;
+  .sub-intro {
+    font-weight: 100;
+  }
+
+  /* Media Queries */
+
+  @include media($small) {
+    width: 70%
+  }
+
+  @include media($medium) {
+    width: 70%;
+  }
+
+  @include media($medium-2) {
+    width: 70%;
+  }
+
+  @include media($large) {
+    width: 60%;
+  }
+
+  @include media($large-2) {
+    width: 60%;
+  }
+
+  @include media($xlarge) {
+    width: 60%;
+  }
+
+  @include media($xlarge-3) {
+    width: 50%;
+  }
 }

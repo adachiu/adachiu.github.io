@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="270px" height="55px" viewBox="0 0 270 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MarsExpress-Branding" transform="translate(-926.000000, -246.000000)" fill="#5E6D6C">
+            <g id="logo-grey" transform="translate(955.000000, 246.000000)">
+                <text id="MARS-EXPRESS" font-family="Orbitron-Regular, Orbitron" font-size="12.4813768" font-weight="normal" letter-spacing="14">
+                    <tspan x="-28.9572733" y="55">MARS EXPRES</tspan>
+                    <tspan x="230.697582" y="55">S</tspan>
+                </text>
+                <g id="Group" transform="translate(6.000000, 0.000000)">
+                    <polyline id="Fill-1" points="120.627684 0.361344086 160.378029 38.4362473 120.627684 38.3378387 100.8286 19.3495914 120.627684 0.361344086"></polyline>
+                    <polyline id="Fill-2" points="81.0134975 0.361344086 41.2631522 38.4362473 81.0134975 38.3378387 100.812581 19.3495914 81.0134975 0.361344086"></polyline>
+                    <polyline id="Fill-3" points="121.960438 0.361344086 161.712385 0.344430108 201.411471 38.4531613 161.712385 38.4362473 121.960438 0.361344086"></polyline>
+                    <polyline id="Fill-4" points="79.6134652 0.361344086 39.8631198 0.344430108 0.162432372 38.4531613 39.8631198 38.4362473 79.6134652 0.361344086"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

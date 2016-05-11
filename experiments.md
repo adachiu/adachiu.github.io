@@ -23,3 +23,5 @@ permalink: /experiments/
     </article>
   {% endfor %}
 </div>
+
+{% include section-footer.html %}
