@@ -676,7 +676,7 @@ a svg:hover #linkedin-logo {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  height: 50em;
+  height: 75em;
   margin: 0 10%;
   /* Media Queries */ }
   @media screen and (max-width: 40em) {
@@ -716,22 +716,32 @@ a svg:hover #linkedin-logo {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: 4em;
+  border: none;
   width: 100%; }
-  /* line 46, 3-sections/_home-works.scss */
+  /* line 47, 3-sections/_home-works.scss */
   .teaser .teaser-alzie {
-    background-color: #6954BB;
-    height: 250px; }
-  /* line 51, 3-sections/_home-works.scss */
+    background-color: white;
+    height: 400px; }
+  /* line 52, 3-sections/_home-works.scss */
   .teaser .teaser-ibeam {
-    background-color: #ABDCE3;
-    height: 250px; }
+    background-color: white;
+    height: 400px; }
 
-/* line 57, 3-sections/_home-works.scss */
+/* line 58, 3-sections/_home-works.scss */
 .teaser-detail {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 0 5% 0;
   padding: 5%;
   text-align: left;
@@ -739,15 +749,12 @@ a svg:hover #linkedin-logo {
   -webkit-transition: all 100ms ease-in-out;
   transition: all 100ms ease-in-out;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  /* line 68, 3-sections/_home-works.scss */
+  /* line 71, 3-sections/_home-works.scss */
   .teaser-detail:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
-  /* line 72, 3-sections/_home-works.scss */
+  /* line 75, 3-sections/_home-works.scss */
   .teaser-detail:active {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  /* line 76, 3-sections/_home-works.scss */
-  .teaser-detail h2, .teaser-detail p {
-    color: white; }
   /* line 80, 3-sections/_home-works.scss */
   .teaser-detail .project-text {
     -webkit-box-orient: vertical;
@@ -755,6 +762,18 @@ a svg:hover #linkedin-logo {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; }
+  /* line 84, 3-sections/_home-works.scss */
+  .teaser-detail h2 {
+    color: #5b5b5b; }
+  /* line 88, 3-sections/_home-works.scss */
+  .teaser-detail p {
+    margin: 0;
+    color: #5b5b5b; }
+  /* line 93, 3-sections/_home-works.scss */
+  .teaser-detail .category {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1.875em; }
 
 /* line 4, 3-sections/_home-experiments.scss */
 .parallax-window {
