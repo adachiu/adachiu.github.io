@@ -455,15 +455,20 @@ body {
 /* General button style (reset) */
 /* line 2, 1-base/_buttons.scss */
 .btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 10px 50px;
-  display: inline-block;
-  margin: 15px 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -472,7 +477,7 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
-/* line 22, 1-base/_buttons.scss */
+/* line 24, 1-base/_buttons.scss */
 .btn:after {
   content: '';
   position: absolute;
@@ -794,6 +799,45 @@ a svg:hover #linkedin-logo {
   .teaser-img img {
     width: 80%; }
 
+/* Buttons */
+/* line 128, 3-sections/_home-works.scss */
+.btn-alzie {
+  margin-top: 1.875em;
+  padding: 10px;
+  width: 210px;
+  color: #4f3f8d;
+  -webkit-transition: none;
+  transition: none;
+  border: 4px solid #4f3f8d; }
+
+/* line 137, 3-sections/_home-works.scss */
+.btn-alzie:active {
+  top: 2px; }
+
+/* line 141, 3-sections/_home-works.scss */
+.btn-alzie:hover {
+  background: #4f3f8d;
+  color: white; }
+
+/* line 147, 3-sections/_home-works.scss */
+.btn-ibeam {
+  margin-top: 1.875em;
+  padding: 10px;
+  width: 210px;
+  color: #5b5b5b;
+  -webkit-transition: none;
+  transition: none;
+  border: 4px solid #5b5b5b; }
+
+/* line 156, 3-sections/_home-works.scss */
+.btn-ibeam:active {
+  top: 2px; }
+
+/* line 160, 3-sections/_home-works.scss */
+.btn-ibeam:hover {
+  background: #5b5b5b;
+  color: white; }
+
 /* line 4, 3-sections/_home-experiments.scss */
 .parallax-window {
   max-height: 30em;
@@ -805,11 +849,24 @@ a svg:hover #linkedin-logo {
 
 /* line 14, 3-sections/_home-experiments.scss */
 .parallax-static-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8em 0;
   position: relative;
   z-index: 9; }
 
-/* line 20, 3-sections/_home-experiments.scss */
+/* line 23, 3-sections/_home-experiments.scss */
 .parallax-background {
   background: url("/assets/img/elements@1x.png");
   background-repeat: no-repeat;
@@ -822,22 +879,24 @@ a svg:hover #linkedin-logo {
   top: -10em;
   width: 100%; }
 
-/* line 33, 3-sections/_home-experiments.scss */
+/* line 36, 3-sections/_home-experiments.scss */
 .btn-exp {
-  color: #fff;
-  background: #e5e5e5;
+  margin-top: 1.875em;
+  padding: 10px;
+  width: 210px;
+  color: #5b5b5b;
   -webkit-transition: none;
   transition: none;
-  border: 4px solid #e5e5e5; }
+  border: 4px solid #5b5b5b; }
 
-/* line 43, 3-sections/_home-experiments.scss */
+/* line 45, 3-sections/_home-experiments.scss */
 .btn-exp:active {
   top: 2px; }
 
-/* line 48, 3-sections/_home-experiments.scss */
+/* line 49, 3-sections/_home-experiments.scss */
 .btn-exp:hover {
-  background: transparent;
-  color: #e5e5e5; }
+  background: #5b5b5b;
+  color: white; }
 
 /* line 1, 3-sections/_home-footer.scss */
 .footer {
