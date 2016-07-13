@@ -917,13 +917,14 @@ a svg:hover #linkedin-logo {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 128px 10%;
-  background-color: #ffffff; }
+  padding: 128px 10% 1%;
+  background-color: #ffffff;
+  text-align: center; }
 
-/* line 11, 3-sections/_home-footer.scss */
+/* line 13, 3-sections/_home-footer.scss */
 .btn-contact {
   margin-top: 1.875em;
-  margin-bottom: 1.875em;
+  margin-bottom: 5em;
   padding: 10px;
   width: 210px;
   color: #5b5b5b;
@@ -932,11 +933,11 @@ a svg:hover #linkedin-logo {
   transition: none;
   border: 3px solid #5b5b5b; }
 
-/* line 25, 3-sections/_home-footer.scss */
+/* line 27, 3-sections/_home-footer.scss */
 .btn-contact:active {
   top: 2px; }
 
-/* line 29, 3-sections/_home-footer.scss */
+/* line 31, 3-sections/_home-footer.scss */
 .btn-contact:hover {
   background: #5b5b5b;
   color: white; }
