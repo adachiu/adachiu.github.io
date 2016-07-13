@@ -625,7 +625,7 @@ a svg:hover #linkedin-logo {
 
 /* line 12, 3-sections/_home-about.scss */
 .intro {
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   color: #5b5b5b;
   /* Media Queries */ }
@@ -768,7 +768,7 @@ a svg:hover #linkedin-logo {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  padding: 5% 0 5% 15%;
+  padding: 8% 0 8% 15%;
   width: 100%;
   text-align: left; }
   /* line 109, 3-sections/_home-works.scss */
@@ -794,10 +794,10 @@ a svg:hover #linkedin-logo {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding: 5% 15% 5% 0; }
+  padding: 8% 15% 8% 0; }
   /* line 121, 3-sections/_home-works.scss */
   .teaser-img img {
-    width: 80%; }
+    width: 90%; }
 
 /* Buttons */
 /* line 128, 3-sections/_home-works.scss */
