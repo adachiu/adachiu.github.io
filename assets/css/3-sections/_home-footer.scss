@@ -3,20 +3,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 128px 10%;
   background-color: $bg-color;
 }
 
 
 .btn-contact {
-	color: #fff;
-	background: #226fbe;
+  margin-top: em(30);
+  margin-bottom: em(30);
+  padding: 10px;
+  width: 210px;
+	color: $body-text;
+	background: transparent;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
+  border: 3px solid $body-text;
 
-  border: 4px solid #226fbe;
-  margin-top: 2em;
 }
 
 .btn-contact:active {
@@ -24,6 +27,6 @@
 }
 
 .btn-contact:hover {
-	background: transparent;
-	color: #226fbe;
+	background: $body-text;
+	color: white;
 }

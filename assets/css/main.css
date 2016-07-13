@@ -805,10 +805,10 @@ a svg:hover #linkedin-logo {
   margin-top: 1.875em;
   padding: 10px;
   width: 210px;
-  color: #4f3f8d;
+  color: white;
   -webkit-transition: none;
   transition: none;
-  border: 4px solid #4f3f8d; }
+  border: 3px solid white; }
 
 /* line 137, 3-sections/_home-works.scss */
 .btn-alzie:active {
@@ -816,8 +816,8 @@ a svg:hover #linkedin-logo {
 
 /* line 141, 3-sections/_home-works.scss */
 .btn-alzie:hover {
-  background: #4f3f8d;
-  color: white; }
+  background: white;
+  color: #6954BB; }
 
 /* line 147, 3-sections/_home-works.scss */
 .btn-ibeam {
@@ -827,7 +827,7 @@ a svg:hover #linkedin-logo {
   color: #5b5b5b;
   -webkit-transition: none;
   transition: none;
-  border: 4px solid #5b5b5b; }
+  border: 3px solid #5b5b5b; }
 
 /* line 156, 3-sections/_home-works.scss */
 .btn-ibeam:active {
@@ -887,7 +887,7 @@ a svg:hover #linkedin-logo {
   color: #5b5b5b;
   -webkit-transition: none;
   transition: none;
-  border: 4px solid #5b5b5b; }
+  border: 3px solid #5b5b5b; }
 
 /* line 45, 3-sections/_home-experiments.scss */
 .btn-exp:active {
@@ -917,26 +917,29 @@ a svg:hover #linkedin-logo {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 80px 10%;
+  padding: 128px 10%;
   background-color: #ffffff; }
 
 /* line 11, 3-sections/_home-footer.scss */
 .btn-contact {
-  color: #fff;
-  background: #226fbe;
+  margin-top: 1.875em;
+  margin-bottom: 1.875em;
+  padding: 10px;
+  width: 210px;
+  color: #5b5b5b;
+  background: transparent;
   -webkit-transition: none;
   transition: none;
-  border: 4px solid #226fbe;
-  margin-top: 2em; }
+  border: 3px solid #5b5b5b; }
 
-/* line 22, 3-sections/_home-footer.scss */
+/* line 25, 3-sections/_home-footer.scss */
 .btn-contact:active {
   top: 2px; }
 
-/* line 26, 3-sections/_home-footer.scss */
+/* line 29, 3-sections/_home-footer.scss */
 .btn-contact:hover {
-  background: transparent;
-  color: #226fbe; }
+  background: #5b5b5b;
+  color: white; }
 
 /* line 1, 4-layouts/_home.scss */
 .home-sections {
