@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Experiments
-permalink: /experiments/
+permalink: /Experiments/
 ---
 
 <div class="home-wrap">
@@ -23,5 +23,3 @@ permalink: /experiments/
     </article>
   {% endfor %}
 </div>
-
-{% include section-footer.html %}
