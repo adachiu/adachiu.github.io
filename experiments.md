@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Experiments
-permalink: /Experiments/
+permalink: /experiments/
 ---
 
 <div class="home-wrap">
