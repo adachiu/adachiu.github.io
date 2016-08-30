@@ -592,11 +592,20 @@ a svg:hover #instagram-logo {
   fill: #1b5988; }
 
 /* line 84, 3-sections/_header.scss */
-#svg-linkedin {
+#svg-snapchat {
   width: 23px;
   height: 23px; }
 
 /* line 89, 3-sections/_header.scss */
+a svg:hover #snapchat-logo {
+  fill: #fffc00; }
+
+/* line 93, 3-sections/_header.scss */
+#svg-linkedin {
+  width: 23px;
+  height: 23px; }
+
+/* line 98, 3-sections/_header.scss */
 a svg:hover #linkedin-logo {
   fill: #0077B5; }
 
