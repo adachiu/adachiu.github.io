@@ -508,16 +508,17 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 15px 10%;
-  height: 50px; }
-  /* line 9, 3-sections/_header.scss */
+  height: 50px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3); }
+  /* line 11, 3-sections/_header.scss */
   .home-wrap header a {
     color: #757b81;
     text-decoration: none; }
-    /* line 13, 3-sections/_header.scss */
+    /* line 15, 3-sections/_header.scss */
     .home-wrap header a:hover, .home-wrap header a:active {
       color: #d3d3d3; }
 
-/* line 19, 3-sections/_header.scss */
+/* line 21, 3-sections/_header.scss */
 .logo {
   display: -webkit-box;
   display: -webkit-flex;
@@ -527,18 +528,18 @@ body {
   padding: 0;
   color: black; }
 
-/* line 26, 3-sections/_header.scss */
+/* line 28, 3-sections/_header.scss */
 #logo {
   color: #000000;
   text-transform: uppercase;
   font-size: 1.25em;
   font-weight: 700;
   letter-spacing: 2px; }
-  /* line 33, 3-sections/_header.scss */
+  /* line 35, 3-sections/_header.scss */
   #logo:hover {
     color: #d3d3d3; }
 
-/* line 38, 3-sections/_header.scss */
+/* line 40, 3-sections/_header.scss */
 .social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -554,58 +555,58 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 0.875em; }
-  /* line 45, 3-sections/_header.scss */
+  /* line 47, 3-sections/_header.scss */
   .social .svg-social {
     padding: 0;
     stroke: none;
     stroke-width: 1;
     fill: #757b81; }
-  /* line 52, 3-sections/_header.scss */
+  /* line 54, 3-sections/_header.scss */
   .social a {
     padding: 0 10px; }
 
-/* line 57, 3-sections/_header.scss */
+/* line 59, 3-sections/_header.scss */
 #svg-twitter {
   width: 22px;
   height: 22px; }
 
-/* line 62, 3-sections/_header.scss */
+/* line 64, 3-sections/_header.scss */
 a svg:hover #twitter-logo {
   fill: #55acee; }
 
-/* line 66, 3-sections/_header.scss */
+/* line 68, 3-sections/_header.scss */
 #svg-dribbble {
   width: 19px;
   height: 19px; }
 
-/* line 71, 3-sections/_header.scss */
+/* line 73, 3-sections/_header.scss */
 a svg:hover #dribbble-logo {
   fill: #ea4c89; }
 
-/* line 75, 3-sections/_header.scss */
+/* line 77, 3-sections/_header.scss */
 #svg-instagram {
   width: 23px;
   height: 23px; }
 
-/* line 80, 3-sections/_header.scss */
+/* line 82, 3-sections/_header.scss */
 a svg:hover #instagram-logo {
   fill: #1b5988; }
 
-/* line 84, 3-sections/_header.scss */
+/* line 86, 3-sections/_header.scss */
 #svg-snapchat {
   width: 23px;
   height: 23px; }
 
-/* line 89, 3-sections/_header.scss */
+/* line 91, 3-sections/_header.scss */
 a svg:hover #snapchat-logo {
   fill: #fffc00; }
 
-/* line 93, 3-sections/_header.scss */
+/* line 95, 3-sections/_header.scss */
 #svg-linkedin {
   width: 23px;
   height: 23px; }
 
-/* line 98, 3-sections/_header.scss */
+/* line 100, 3-sections/_header.scss */
 a svg:hover #linkedin-logo {
   fill: #0077B5; }
 
@@ -629,8 +630,7 @@ a svg:hover #linkedin-logo {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding: 10% 0;
-  background-color: #f2f2f2; }
+  padding: 10% 0; }
 
 /* line 12, 3-sections/_home-about.scss */
 .intro {
