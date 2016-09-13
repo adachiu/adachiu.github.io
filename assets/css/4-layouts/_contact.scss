@@ -1,0 +1,14 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10% 0;
+}
+
+.greeting {
+  text-align: center;
+  font-weight: 700;
+  color: $body-text;
+}
