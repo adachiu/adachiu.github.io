@@ -68,12 +68,6 @@
       color: white;
     }
 
-    .category {
-      text-transform: uppercase;
-      font-weight: 700;
-      margin-top: em(30);
-      color: white;
-    }
 }
 
 #teaser-layout-ibeam {
@@ -165,37 +159,22 @@
 
 .btn-alzie {
   margin-top: em(30);
-  padding: 10px;
   width: 210px;
+  justify-content: flex-start;
 	color: white;
-	transition: none;
-  border: 3px solid white;
-}
-
-.btn-alzie:active {
-	top: 2px;
 }
 
 .btn-alzie:hover {
-	background: white;
-	color: $alzie-primary;
+	opacity: 0.5;
 }
-
 
 .btn-ibeam {
   margin-top: em(30);
-  padding: 10px;
   width: 210px;
+  justify-content: flex-start;
 	color: $body-text;
-	transition: none;
-  border: 3px solid $body-text;
-}
-
-.btn-ibeam:active {
-	top: 2px;
 }
 
 .btn-ibeam:hover {
-	background: $body-text;
-	color: white;
+	opacity: 0.5;
 }

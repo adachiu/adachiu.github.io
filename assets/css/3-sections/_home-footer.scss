@@ -13,22 +13,10 @@
 .btn-contact {
   margin-top: em(30);
   margin-bottom: em(80);
-  padding: 10px;
   width: 210px;
 	color: $body-text;
-	background: transparent;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
-  border: 3px solid $body-text;
-
-}
-
-.btn-contact:active {
-	top: 2px;
 }
 
 .btn-contact:hover {
-	background: $body-text;
-	color: white;
+	opacity: 0.5;
 }

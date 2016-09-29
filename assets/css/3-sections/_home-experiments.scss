@@ -35,18 +35,10 @@ $parallax-background-height: $parallax-window-height * 1.5;
 
 .btn-exp {
   margin-top: em(30);
-  padding: 10px;
   width: 210px;
 	color: $body-text;
-	transition: none;
-  border: 3px solid $body-text;
-}
-
-.btn-exp:active {
-	top: 2px;
 }
 
 .btn-exp:hover {
-	background: $body-text;
-	color: white;
+	opacity: 0.5;
 }
