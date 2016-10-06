@@ -59,12 +59,7 @@
   background-color: $alzie-primary;
 
 
-    h2 {
-      color: white;
-    }
-
-    p {
-      margin: 0;
+    h2, p {
       color: white;
     }
 
@@ -76,12 +71,7 @@
   background-color: white;
 
 
-    h2 {
-      color: $body-text;
-    }
-
-    p {
-      margin: 0;
+    h2, p {
       color: $body-text;
     }
 
@@ -127,15 +117,18 @@
 
 #teaser-opensource {
   display: flex;
-  max-width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0;
+  max-width: 100%;
   text-align: center;
 
   .teaser-codebuddies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-grow: 1;
     flex-basis: 50%;
     padding: 8%;
@@ -144,37 +137,52 @@
     h2, p {
       color: white;
     }
+
+    .btn-light {
+    justify-content: center;
+    }
   }
 
   .teaser-odin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-grow: 1;
     flex-basis: 50%;
     padding: 8%;
-    background-color: grey;
+    background-color: $odin-bg;
+
+    h2, p {
+      color: $body-text;
+    }
+
+    .btn-dark {
+    justify-content: center;
+    }
   }
 
 }
 
 /* Buttons */
 
-.btn-alzie {
+.btn-light {
   margin-top: em(30);
   width: 210px;
   justify-content: flex-start;
 	color: white;
 }
 
-.btn-alzie:hover {
+.btn-light:hover {
 	opacity: 0.5;
 }
 
-.btn-ibeam {
+.btn-dark {
   margin-top: em(30);
   width: 210px;
   justify-content: flex-start;
 	color: $body-text;
 }
 
-.btn-ibeam:hover {
+.btn-dark:hover {
 	opacity: 0.5;
 }
