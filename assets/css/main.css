@@ -408,20 +408,21 @@ h1 {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-size: 1.875em; }
+  font-size: 1.75em;
+  color: #5b5b5b; }
 
-/* line 10, 1-base/_base.scss */
+/* line 11, 1-base/_base.scss */
 h2 {
   font-weight: 700;
   margin: 0;
   padding: 0;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: 2.5em;
+  font-size: 1.875em;
   text-transform: uppercase;
-  color: #000000; }
+  color: #5b5b5b; }
 
-/* line 21, 1-base/_base.scss */
+/* line 22, 1-base/_base.scss */
 h3 {
   font-weight: 700;
   margin: 0;
@@ -432,21 +433,23 @@ h3 {
   text-transform: uppercase;
   color: #000000; }
 
-/* line 32, 1-base/_base.scss */
+/* line 33, 1-base/_base.scss */
 a, p {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  font-size: 1em; }
+  font-size: 1em;
+  font-weight: 300;
+  font-style: normal; }
 
-/* line 45, 1-base/_base.scss */
+/* line 48, 1-base/_base.scss */
 html, body {
   min-height: 100vh;
   background: #ffffff; }
 
-/* line 50, 1-base/_base.scss */
+/* line 53, 1-base/_base.scss */
 body {
-  font-size: 1em;
+  font-size: 1.125em;
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
@@ -741,7 +744,7 @@ a svg:hover #linkedin-logo {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  padding: 8% 0 8% 15%;
+  padding: 8% 15%;
   width: 100%;
   text-align: left; }
 
@@ -808,7 +811,7 @@ a svg:hover #linkedin-logo {
             flex-grow: 1;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-    padding: 8%;
+    padding: 8% 10%;
     background-color: #1E90FF; }
     /* line 137, 3-sections/_home-works.scss */
     #teaser-opensource .teaser-codebuddies h2, #teaser-opensource .teaser-codebuddies p {
@@ -835,7 +838,7 @@ a svg:hover #linkedin-logo {
             flex-grow: 1;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-    padding: 8%;
+    padding: 8% 10%;
     background-color: #eeeeee; }
     /* line 155, 3-sections/_home-works.scss */
     #teaser-opensource .teaser-odin h2, #teaser-opensource .teaser-odin p {

@@ -4,7 +4,8 @@ h1 {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-size: em(30);
+  font-size: em(28);
+  color: $body-text;
 }
 
 h2 {
@@ -13,9 +14,9 @@ h2 {
   padding: 0;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: em(40);
+  font-size: em(30);
   text-transform: uppercase;
-  color: $logo-color;
+  color: $body-text;
 }
 
 h3 {
@@ -34,6 +35,8 @@ a, p {
   margin: 0;
   padding: 0;
   font-size: $base-font-size;
+  font-weight: 300;
+  font-style: normal;
 }
 
 // Links
@@ -48,7 +51,7 @@ html, body {
 }
 
 body {
-  font-size: em(16);
+  font-size: em(18);
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
