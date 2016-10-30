@@ -1,23 +1,21 @@
 @import "0-tools/normalize";
 @import '0-tools/bourbon/bourbon';
 @import "0-tools/neat/neat";
-@import "0-tools/fonts";
 
 @import "1-base/vars";
 @import "1-base/base";
 @import "1-base/buttons";
 @import "1-base/icons";
+@import "1-base/fonts";
 
-/*
-@import "2-modules/example";
- */
+@import "2-home/header";
+@import "2-home/home";
+@import "2-home/home-about";
+@import "2-home/home-works";
+@import "2-home/home-experiments";
+@import "2-home/home-footer";
 
-@import "3-sections/header";
-@import "3-sections/home-about";
-@import "3-sections/home-works";
-@import "3-sections/home-experiments";
-@import "3-sections/home-footer";
+@import "3-other/contact";
+@import "3-other/experiments";
 
-@import "4-layouts/home";
-@import "4-layouts/contact";
-@import "4-layouts/experiments";
+// @import "4-projects/example";
