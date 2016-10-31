@@ -1,11 +1,7 @@
 .section-about {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  padding: 10% 0;
-  //background-color: $bg-light;
 }
 
 
@@ -20,31 +16,4 @@
 
   /* Media Queries */
 
-  @include media($small) {
-    width: 70%
-  }
-
-  @include media($medium) {
-    width: 70%;
-  }
-
-  @include media($medium-2) {
-    width: 70%;
-  }
-
-  @include media($large) {
-    width: 60%;
-  }
-
-  @include media($large-2) {
-    width: 60%;
-  }
-
-  @include media($xlarge) {
-    width: 60%;
-  }
-
-  @include media($xlarge-3) {
-    width: 50%;
-  }
 }

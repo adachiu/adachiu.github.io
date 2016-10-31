@@ -394,46 +394,38 @@ td,
 th {
   padding: 0; }
 
-/* line 4, 0-tools/neat/grid/_box-sizing.scss */
-html {
-  box-sizing: border-box; }
-
-/* line 9, 0-tools/neat/grid/_box-sizing.scss */
-*, *::after, *::before {
-  box-sizing: inherit; }
-
-/* line 2, 1-base/_base.scss */
+/* line 3, 1-base/_base.scss */
 h1 {
   font-weight: 700;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-size: 1.75em;
+  font-size: 1.6666666666666667em;
   color: #5b5b5b; }
 
-/* line 11, 1-base/_base.scss */
+/* line 12, 1-base/_base.scss */
 h2 {
   font-weight: 700;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: 1.875em;
+  font-size: 2.2222222222222223em;
   text-transform: uppercase;
   color: #5b5b5b; }
 
-/* line 22, 1-base/_base.scss */
+/* line 23, 1-base/_base.scss */
 h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: 1em;
+  font-size: 0.8888888888888888em;
   text-transform: uppercase;
   color: #000000; }
 
-/* line 33, 1-base/_base.scss */
+/* line 34, 1-base/_base.scss */
 a, p {
   text-decoration: none;
   margin: 0;
@@ -442,14 +434,61 @@ a, p {
   font-weight: 300;
   font-style: normal; }
 
+/* line 45, 1-base/_base.scss */
+.flex-grid {
+  display: block;
+  padding: 10% 20%; }
+
+/* line 46, 1-base/_base.scss */
+.col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
 /* line 48, 1-base/_base.scss */
+.flex-grid-halves {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  /* line 51, 1-base/_base.scss */
+  .flex-grid-halves .flex-grid-halves .col {
+    width: 50%; }
+  @media only screen and (min-width: 200px) {
+    /* line 48, 1-base/_base.scss */
+    .flex-grid-halves {
+      display: block;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      /* line 56, 1-base/_base.scss */
+      .flex-grid-halves .col {
+        width: 100%; } }
+  @media only screen and (min-width: 768px) {
+    /* line 48, 1-base/_base.scss */
+    .flex-grid-halves {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; } }
+  @media only screen and (min-width: 1200px) {
+    /* line 48, 1-base/_base.scss */
+    .flex-grid-halves {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; } }
+
+/* line 76, 1-base/_base.scss */
 html, body {
+  min-height: 100vh;
   min-height: 100vh;
   background: #ffffff; }
 
-/* line 53, 1-base/_base.scss */
+/* line 82, 1-base/_base.scss */
 body {
-  font-size: 1.125em;
+  font-size: 18px;
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
@@ -502,37 +541,35 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 15px 10%;
-  height: 50px;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3); }
-  /* line 11, 2-home/_header.scss */
+  /* line 10, 2-home/_header.scss */
   .home-wrap header a {
     color: #757b81;
     text-decoration: none; }
-    /* line 15, 2-home/_header.scss */
+    /* line 14, 2-home/_header.scss */
     .home-wrap header a:hover, .home-wrap header a:active {
       color: #d3d3d3; }
 
-/* line 21, 2-home/_header.scss */
+/* line 20, 2-home/_header.scss */
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: auto;
-  padding: 0;
-  color: black; }
+  padding: 0; }
 
-/* line 28, 2-home/_header.scss */
+/* line 26, 2-home/_header.scss */
 #logo {
   color: #000000;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1.1111111111111112em;
   font-weight: 700;
   letter-spacing: 2px; }
-  /* line 35, 2-home/_header.scss */
+  /* line 33, 2-home/_header.scss */
   #logo:hover {
     color: #d3d3d3; }
 
-/* line 40, 2-home/_header.scss */
+/* line 38, 2-home/_header.scss */
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -544,60 +581,38 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 0.875em; }
-  /* line 47, 2-home/_header.scss */
+  font-size: 1em; }
+  /* line 45, 2-home/_header.scss */
   .social .svg-social {
-    padding: 0;
+    padding: 0 10px;
     stroke: none;
     stroke-width: 1;
-    fill: #757b81; }
-  /* line 54, 2-home/_header.scss */
+    height: 25px;
+    fill: #757b81;
+    width: 25px;
+    height: 25px; }
+  /* line 55, 2-home/_header.scss */
   .social a {
     padding: 0 10px; }
 
-/* line 59, 2-home/_header.scss */
-#svg-twitter {
-  width: 22px;
-  height: 22px; }
+/* line 60, 2-home/_header.scss */
+#svg-social {
+  fill: #757b81; }
 
-/* line 64, 2-home/_header.scss */
-a svg:hover #twitter-logo {
+/* line 62, 2-home/_header.scss */
+svg:hover #twitter {
   fill: #55acee; }
 
-/* line 68, 2-home/_header.scss */
-#svg-dribbble {
-  width: 19px;
-  height: 19px; }
-
-/* line 73, 2-home/_header.scss */
-a svg:hover #dribbble-logo {
+/* line 66, 2-home/_header.scss */
+svg:hover #dribbble {
   fill: #ea4c89; }
 
-/* line 77, 2-home/_header.scss */
-#svg-instagram {
-  width: 23px;
-  height: 23px; }
-
-/* line 82, 2-home/_header.scss */
-a svg:hover #instagram-logo {
+/* line 70, 2-home/_header.scss */
+svg:hover #instagram {
   fill: #1b5988; }
 
-/* line 86, 2-home/_header.scss */
-#svg-snapchat {
-  width: 23px;
-  height: 23px; }
-
-/* line 91, 2-home/_header.scss */
-a svg:hover #snapchat-logo {
-  fill: #fffc00; }
-
-/* line 95, 2-home/_header.scss */
-#svg-linkedin {
-  width: 23px;
-  height: 23px; }
-
-/* line 100, 2-home/_header.scss */
-a svg:hover #linkedin-logo {
+/* line 74, 2-home/_header.scss */
+svg:hover #linkedin {
   fill: #0077B5; }
 
 /* line 1, 2-home/_home.scss */
@@ -618,9 +633,6 @@ a svg:hover #linkedin-logo {
 
 /* line 1, 2-home/_home-about.scss */
 .section-about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -630,47 +642,18 @@ a svg:hover #linkedin-logo {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  padding: 10% 0; }
+              -ms-grid-row-align: center;
+          align-items: center; }
 
-/* line 12, 2-home/_home-about.scss */
+/* line 8, 2-home/_home-about.scss */
 .intro {
   text-align: center;
   font-weight: 700;
   color: #5b5b5b;
   /* Media Queries */ }
-  /* line 17, 2-home/_home-about.scss */
+  /* line 13, 2-home/_home-about.scss */
   .intro .sub-intro {
     font-weight: 100; }
-  @media screen and (max-width: 40em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 70%; } }
-  @media screen and (min-width: 40.063em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 70%; } }
-  @media screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 70%; } }
-  @media screen and (min-width: 64.063em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 60%; } }
-  @media screen and (min-width: 64.063em) and (max-width: 90em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 60%; } }
-  @media screen and (min-width: 90.063em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 60%; } }
-  @media screen and (min-width: 120.063em) {
-    /* line 12, 2-home/_home-about.scss */
-    .intro {
-      width: 50%; } }
 
 /* line 1, 2-home/_home-works.scss */
 .works {
@@ -691,16 +674,9 @@ a svg:hover #linkedin-logo {
           align-items: center;
   background-color: #fff;
   width: 100%;
-  /* Media Queries */
-  /* SMALL */
-  /* MEDIUM */
-  /* MEDIUM-2 */
-  /* LARGE */
-  /* LARGE-2 */
-  /* XLARGE */
-  /* XLARGE-3 */ }
+  /* Media Queries */ }
 
-/* line 50, 2-home/_home-works.scss */
+/* line 15, 2-home/_home-works.scss */
 .teaser {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -710,7 +686,7 @@ a svg:hover #linkedin-logo {
       flex-wrap: wrap;
   width: 100%; }
 
-/* line 56, 2-home/_home-works.scss */
+/* line 21, 2-home/_home-works.scss */
 #teaser-layout-alzie {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -720,11 +696,11 @@ a svg:hover #linkedin-logo {
       -ms-flex-direction: row;
           flex-direction: row;
   background-color: #6954BB; }
-  /* line 62, 2-home/_home-works.scss */
+  /* line 27, 2-home/_home-works.scss */
   #teaser-layout-alzie h2, #teaser-layout-alzie p {
     color: white; }
 
-/* line 68, 2-home/_home-works.scss */
+/* line 33, 2-home/_home-works.scss */
 #teaser-layout-ibeam {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -734,17 +710,17 @@ a svg:hover #linkedin-logo {
       -ms-flex-direction: row;
           flex-direction: row;
   background-color: white; }
-  /* line 74, 2-home/_home-works.scss */
+  /* line 39, 2-home/_home-works.scss */
   #teaser-layout-ibeam h2, #teaser-layout-ibeam p {
     color: #5b5b5b; }
-  /* line 78, 2-home/_home-works.scss */
+  /* line 43, 2-home/_home-works.scss */
   #teaser-layout-ibeam .category {
     text-transform: uppercase;
     font-weight: 700;
-    margin-top: 1.875em;
+    margin-top: em(30);
     color: #5b5b5b; }
 
-/* line 86, 2-home/_home-works.scss */
+/* line 51, 2-home/_home-works.scss */
 .teaser-detail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -761,7 +737,7 @@ a svg:hover #linkedin-logo {
   width: 100%;
   text-align: left; }
 
-/* line 96, 2-home/_home-works.scss */
+/* line 61, 2-home/_home-works.scss */
 .teaser-img-alzie {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -774,41 +750,31 @@ a svg:hover #linkedin-logo {
           align-items: center;
   width: 100%;
   padding: 8% 10% 8% 0; }
-  /* line 103, 2-home/_home-works.scss */
+  /* line 68, 2-home/_home-works.scss */
   .teaser-img-alzie img {
     width: 90%; }
 
-/* line 108, 2-home/_home-works.scss */
+/* line 73, 2-home/_home-works.scss */
 .teaser-img-ibeam {
   display: block;
   width: 100%;
   padding: 0 10% 8% 0; }
-  /* line 113, 2-home/_home-works.scss */
+  /* line 78, 2-home/_home-works.scss */
   .teaser-img-ibeam img {
     width: 100%; }
 
-/* line 118, 2-home/_home-works.scss */
-#teaser-opensource {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+/* line 83, 2-home/_home-works.scss */
+.teaser-opensource {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
+              -ms-grid-row-align: center;
           align-items: center;
-  margin: 0;
-  max-width: 100%;
   text-align: center; }
-  /* line 128, 2-home/_home-works.scss */
-  #teaser-opensource .teaser-codebuddies {
+  /* line 88, 2-home/_home-works.scss */
+  .teaser-opensource .teaser-codebuddies {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -819,23 +785,18 @@ a svg:hover #linkedin-logo {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
     padding: 8% 10%;
     background-color: #1E90FF; }
-    /* line 137, 2-home/_home-works.scss */
-    #teaser-opensource .teaser-codebuddies h2, #teaser-opensource .teaser-codebuddies p {
+    /* line 95, 2-home/_home-works.scss */
+    .teaser-opensource .teaser-codebuddies h2, .teaser-opensource .teaser-codebuddies p {
       color: white; }
-    /* line 141, 2-home/_home-works.scss */
-    #teaser-opensource .teaser-codebuddies .btn-light {
+    /* line 99, 2-home/_home-works.scss */
+    .teaser-opensource .teaser-codebuddies .btn-light {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-  /* line 146, 2-home/_home-works.scss */
-  #teaser-opensource .teaser-odin {
+  /* line 104, 2-home/_home-works.scss */
+  .teaser-opensource .teaser-odin {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -846,46 +807,41 @@ a svg:hover #linkedin-logo {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
     padding: 8% 10%;
     background-color: #eeeeee; }
-    /* line 155, 2-home/_home-works.scss */
-    #teaser-opensource .teaser-odin h2, #teaser-opensource .teaser-odin p {
+    /* line 111, 2-home/_home-works.scss */
+    .teaser-opensource .teaser-odin h2, .teaser-opensource .teaser-odin p {
       color: #5b5b5b; }
-    /* line 159, 2-home/_home-works.scss */
-    #teaser-opensource .teaser-odin .btn-dark {
+    /* line 115, 2-home/_home-works.scss */
+    .teaser-opensource .teaser-odin .btn-dark {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
 
 /* Buttons */
-/* line 168, 2-home/_home-works.scss */
+/* line 123, 2-home/_home-works.scss */
 .btn-light {
-  margin-top: 1.875em;
+  margin-top: 1.6666666666666667em;
   width: 210px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   color: white; }
 
-/* line 175, 2-home/_home-works.scss */
+/* line 130, 2-home/_home-works.scss */
 .btn-light:hover {
   opacity: 0.5; }
 
-/* line 179, 2-home/_home-works.scss */
+/* line 134, 2-home/_home-works.scss */
 .btn-dark {
-  margin-top: 1.875em;
+  margin-top: 1.6666666666666667em;
   width: 210px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   color: #5b5b5b; }
 
-/* line 186, 2-home/_home-works.scss */
+/* line 141, 2-home/_home-works.scss */
 .btn-dark:hover {
   opacity: 0.5; }
 
@@ -933,8 +889,8 @@ a svg:hover #linkedin-logo {
 
 /* line 41, 2-home/_home-experiments.scss */
 .btn-exp {
-  margin-top: 1.875em;
-  width: 210px;
+  margin-top: 1.6666666666666667em;
+  width: 11.666666666666666em;
   color: #5b5b5b; }
 
 /* line 47, 2-home/_home-experiments.scss */
@@ -942,6 +898,11 @@ a svg:hover #linkedin-logo {
   opacity: 0.5; }
 
 /* line 1, 2-home/_home-footer.scss */
+.footer-layout {
+  padding: 4em 0;
+  background-color: #ffffff; }
+
+/* line 6, 2-home/_home-footer.scss */
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -955,19 +916,16 @@ a svg:hover #linkedin-logo {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  padding: 128px 10% 1%;
-  background-color: #ffffff;
-  text-align: center; }
+          justify-content: center; }
 
-/* line 13, 2-home/_home-footer.scss */
+/* line 14, 2-home/_home-footer.scss */
 .btn-contact {
-  margin-top: 1.875em;
-  margin-bottom: 5em;
-  width: 210px;
+  margin-top: 1.6666666666666667em;
+  margin-bottom: 4.444444444444445em;
+  width: 11.666666666666666em;
   color: #5b5b5b; }
 
-/* line 20, 2-home/_home-footer.scss */
+/* line 21, 2-home/_home-footer.scss */
 .btn-contact:hover {
   opacity: 0.5; }
 

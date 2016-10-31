@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: flex-end;
   padding: 15px 10%;
-  height: 50px;
 
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.30);
 
@@ -22,13 +21,12 @@
   display: flex;
   margin-right: auto;
   padding: 0;
-  color: black;
 }
 
 #logo {
   color: $logo-color;
   text-transform: uppercase;
-  font-size: em(20);
+  font-size: 1.1111111111111112em; // 20px
   font-weight: 700;
   letter-spacing: 2px;
 
@@ -42,13 +40,16 @@
   justify-content: flex-end;
   margin: 0;
   align-items: center;
-  font-size: em(14);
+  font-size: 1em;
 
     .svg-social {
-      padding: 0;
+      padding: 0 10px;
       stroke: none;
       stroke-width: 1;
+      height: 25px;
       fill: $social-color;
+      width: 25px;
+      height: 25px;
     }
 
     a {
@@ -56,47 +57,20 @@
     }
 }
 
-#svg-twitter {
-  width: 22px;
-  height: 22px;
-}
+#svg-social {fill: $social-color; }
 
-a svg:hover #twitter-logo {
+svg:hover #twitter {
   fill: $twitter-color;
 }
 
-#svg-dribbble {
-  width: 19px;
-  height: 19px;
-}
-
-a svg:hover #dribbble-logo {
+svg:hover #dribbble {
   fill: $dribbble-color;
 }
 
-#svg-instagram {
-  width: 23px;
-  height: 23px;
-}
-
-a svg:hover #instagram-logo {
+svg:hover #instagram {
   fill: $instagram-color;
 }
 
-#svg-snapchat {
-  width: 23px;
-  height: 23px;
-}
-
-a svg:hover #snapchat-logo {
-  fill: $snapchat-color;
-}
-
-#svg-linkedin {
-  width: 23px;
-  height: 23px;
-}
-
-a svg:hover #linkedin-logo {
+svg:hover #linkedin {
   fill: $linkedin-color;
 }

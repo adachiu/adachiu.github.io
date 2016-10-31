@@ -1,20 +1,21 @@
 // Typography
+
 h1 {
   font-weight: 700;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-size: em(28);
+  font-size: 1.6666666666666667em; // 30px
   color: $body-text;
 }
 
 h2 {
   font-weight: 700;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: em(30);
+  font-size: 2.2222222222222223em; // 40px
   text-transform: uppercase;
   color: $body-text;
 }
@@ -25,7 +26,7 @@ h3 {
   padding: 0;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: em(16);
+  font-size: 0.8888888888888888em; // 16px
   text-transform: uppercase;
   color: $logo-color;
 }
@@ -39,7 +40,34 @@ a, p {
   font-style: normal;
 }
 
-// Links
+// Grid
+
+.flex-grid {display: block; padding: 10% 20%; }
+.col {flex: 1; }
+
+.flex-grid-halves {
+  display: flex;
+  width: 100%;
+  .flex-grid-halves .col {width: 50%; }
+    @media only screen
+       and (min-width : 200px) {
+         display: block;
+         flex-wrap: wrap;
+         .col {
+           width: 100%;
+         }
+    }
+    @media only screen
+      and (min-width : 768px) {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    @media only screen
+      and (min-width : 1200px) {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
 
 // Selection colors
 
@@ -47,11 +75,12 @@ a, p {
 
 html, body {
   min-height: 100vh;
+  min-height: 100vh;
   background: $bg-color;
 }
 
 body {
-  font-size: em(18);
+  font-size: 18px;
   line-height: 1.6;
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
