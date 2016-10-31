@@ -4,33 +4,33 @@ $parallax-background-height: $parallax-window-height * 1.5;
 .parallax-window {
   max-height: $parallax-window-height;
   overflow: hidden;
-  position: relative;
-
   padding: 0 10%;
+  position: relative;
   text-align: center;
   width: 100%;
 }
 
 .parallax-static-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 8em 0;
   position: relative;
   z-index: 9;
 
-  h2, p {
-    margin: 0;
+  h2,
+   p {
     color: $body-text;
+    margin: 0;
   }
 }
 
 .parallax-background {
-  background: url("/assets/img/home-experiments-bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: inherit;
+  background: url('/assets/img/home-experiments-bg.png');
   background-color: $bg-light;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: inherit;
   height: $parallax-background-height;
   left: 0;
   position: absolute;
@@ -39,11 +39,11 @@ $parallax-background-height: $parallax-window-height * 1.5;
 }
 
 .btn-exp {
+  color: $body-text;
   margin-top: 1.6666666666666667em; // 30px
   width: 11.666666666666666em; // 210px
-	color: $body-text;
 }
 
 .btn-exp:hover {
-	opacity: 0.5;
+  opacity: .5;
 }

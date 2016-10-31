@@ -849,13 +849,16 @@ svg:hover #linkedin {
 .parallax-window {
   max-height: 30em;
   overflow: hidden;
-  position: relative;
   padding: 0 10%;
+  position: relative;
   text-align: center;
   width: 100%; }
 
-/* line 14, 2-home/_home-experiments.scss */
+/* line 13, 2-home/_home-experiments.scss */
 .parallax-static-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,24 +866,22 @@ svg:hover #linkedin {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 8em 0;
   position: relative;
   z-index: 9; }
-  /* line 22, 2-home/_home-experiments.scss */
-  .parallax-static-content h2, .parallax-static-content p {
-    margin: 0;
-    color: #5b5b5b; }
+  /* line 21, 2-home/_home-experiments.scss */
+  .parallax-static-content h2,
+  .parallax-static-content p {
+    color: #5b5b5b;
+    margin: 0; }
 
 /* line 28, 2-home/_home-experiments.scss */
 .parallax-background {
   background: url("/assets/img/home-experiments-bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: inherit;
   background-color: #f8f8f8;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: inherit;
   height: 45em;
   left: 0;
   position: absolute;
@@ -889,13 +890,13 @@ svg:hover #linkedin {
 
 /* line 41, 2-home/_home-experiments.scss */
 .btn-exp {
+  color: #5b5b5b;
   margin-top: 1.6666666666666667em;
-  width: 11.666666666666666em;
-  color: #5b5b5b; }
+  width: 11.666666666666666em; }
 
 /* line 47, 2-home/_home-experiments.scss */
 .btn-exp:hover {
-  opacity: 0.5; }
+  opacity: .5; }
 
 /* line 1, 2-home/_home-footer.scss */
 .footer-layout {
@@ -931,6 +932,9 @@ svg:hover #linkedin {
 
 /* line 1, 3-other/_contact.scss */
 .contact {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -941,17 +945,14 @@ svg:hover #linkedin {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  padding: 10% 0; }
+  padding: 10% 0;
+  width: 100%; }
 
 /* line 10, 3-other/_contact.scss */
 .greeting {
-  text-align: center;
+  color: #5b5b5b;
   font-weight: 700;
-  color: #5b5b5b; }
+  text-align: center; }
 
 /* line 1, 3-other/_experiments.scss */
 .experiments-sections {
