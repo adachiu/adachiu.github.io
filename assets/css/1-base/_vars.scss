@@ -1,5 +1,8 @@
 // Logo
-$logo-color: #000000;
+$logo-color: #000;
+
+// Shadows and Dividers
+$shadow-bottom: rgba(0, 0, 0, .30);
 
 // Icons
 $social-color: #757b81;
@@ -7,7 +10,7 @@ $twitter-color: #55acee;
 $dribbble-color: #ea4c89;
 $instagram-color: #1b5988;
 $snapchat-color: #fffc00;
-$linkedin-color: #0077B5;
+$linkedin-color: #0077b5;
 
 // Typography
 $base-font-size: 1em;
@@ -16,23 +19,23 @@ $header-hover: #d3d3d3;
 $body-text: #5b5b5b;
 
 // Body
-$bg-color: #ffffff;
+$bg-color: #fff;
 $bg-light: #f8f8f8;
 
 // Buttons
 $contact-color: #ea4c89;
 $neutral-color: #e5e5e5;
-$accent-color: #2B61D6;
+$accent-color: #2b61d6;
 
 // Alzie Colors
-$alzie-primary: #6954BB;
+$alzie-primary: #6954bb;
 $alzie-accent: #4f3f8d;
 
 // CodeBuddies Colors
-$cb-main: #1E90FF;
+$cb-main: #1e90ff;
 
 // Odin Colors
-$odin-bg: #eeeeee;
+$odin-bg: #eee;
 $odin-bg2: #d8d8d8;
 
 // Breakpoints

@@ -423,7 +423,7 @@ h3 {
   letter-spacing: 2px;
   font-size: 0.8888888888888888em;
   text-transform: uppercase;
-  color: #000000; }
+  color: #000; }
 
 /* line 34, 1-base/_base.scss */
 a, p {
@@ -484,7 +484,7 @@ a, p {
 html, body {
   min-height: 100vh;
   min-height: 100vh;
-  background: #ffffff; }
+  background: #fff; }
 
 /* line 82, 1-base/_base.scss */
 body {
@@ -527,6 +527,10 @@ body {
 
 /* line 1, 2-home/_header.scss */
 .home-wrap header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -534,19 +538,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 15px 10%;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3); }
-  /* line 10, 2-home/_header.scss */
+  padding: 15px 10%; }
+  /* line 9, 2-home/_header.scss */
   .home-wrap header a {
     color: #757b81;
     text-decoration: none; }
-    /* line 14, 2-home/_header.scss */
+    /* line 13, 2-home/_header.scss */
     .home-wrap header a:hover, .home-wrap header a:active {
       color: #d3d3d3; }
 
@@ -560,37 +560,36 @@ body {
 
 /* line 26, 2-home/_header.scss */
 #logo {
-  color: #000000;
-  text-transform: uppercase;
+  color: #000;
   font-size: 1.1111111111111112em;
   font-weight: 700;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  text-transform: uppercase; }
   /* line 33, 2-home/_header.scss */
   #logo:hover {
     color: #d3d3d3; }
 
 /* line 38, 2-home/_header.scss */
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1em; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1em;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0; }
   /* line 45, 2-home/_header.scss */
   .social .svg-social {
+    fill: #757b81;
+    height: 25px;
     padding: 0 10px;
     stroke: none;
     stroke-width: 1;
-    height: 25px;
-    fill: #757b81;
-    width: 25px;
-    height: 25px; }
+    width: 25px; }
   /* line 55, 2-home/_header.scss */
   .social a {
     padding: 0 10px; }
@@ -613,7 +612,7 @@ svg:hover #instagram {
 
 /* line 74, 2-home/_header.scss */
 svg:hover #linkedin {
-  fill: #0077B5; }
+  fill: #0077b5; }
 
 /* line 1, 2-home/_home.scss */
 .home-sections {
@@ -695,7 +694,7 @@ svg:hover #linkedin {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #6954BB; }
+  background-color: #6954bb; }
   /* line 27, 2-home/_home-works.scss */
   #teaser-layout-alzie h2, #teaser-layout-alzie p {
     color: white; }
@@ -786,7 +785,7 @@ svg:hover #linkedin {
         -ms-flex-align: center;
             align-items: center;
     padding: 8% 10%;
-    background-color: #1E90FF; }
+    background-color: #1e90ff; }
     /* line 95, 2-home/_home-works.scss */
     .teaser-opensource .teaser-codebuddies h2, .teaser-opensource .teaser-codebuddies p {
       color: white; }
@@ -808,7 +807,7 @@ svg:hover #linkedin {
         -ms-flex-align: center;
             align-items: center;
     padding: 8% 10%;
-    background-color: #eeeeee; }
+    background-color: #eee; }
     /* line 111, 2-home/_home-works.scss */
     .teaser-opensource .teaser-odin h2, .teaser-opensource .teaser-odin p {
       color: #5b5b5b; }
@@ -901,7 +900,7 @@ svg:hover #linkedin {
 /* line 1, 2-home/_home-footer.scss */
 .footer-layout {
   padding: 4em 0;
-  background-color: #ffffff; }
+  background-color: #fff; }
 
 /* line 6, 2-home/_home-footer.scss */
 .footer {
