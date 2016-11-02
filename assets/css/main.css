@@ -632,50 +632,48 @@ svg:hover #linkedin {
 
 /* line 1, 2-home/_home-about.scss */
 .section-about {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-              -ms-grid-row-align: center;
-          align-items: center; }
+          justify-content: center; }
 
 /* line 8, 2-home/_home-about.scss */
 .intro {
-  text-align: center;
-  font-weight: 700;
   color: #5b5b5b;
-  /* Media Queries */ }
+  font-weight: 700;
+  text-align: center; }
   /* line 13, 2-home/_home-about.scss */
   .intro .sub-intro {
     font-weight: 100; }
 
 /* line 1, 2-home/_home-works.scss */
 .works {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  width: 100%;
-  /* Media Queries */ }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%; }
 
-/* line 15, 2-home/_home-works.scss */
+/* line 13, 2-home/_home-works.scss */
 .teaser {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -685,41 +683,43 @@ svg:hover #linkedin {
       flex-wrap: wrap;
   width: 100%; }
 
-/* line 21, 2-home/_home-works.scss */
-#teaser-layout-alzie {
+/* line 19, 2-home/_home-works.scss */
+.teaser-layout-alzie {
+  background-color: #6954bb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row;
-  background-color: #6954bb; }
-  /* line 27, 2-home/_home-works.scss */
-  #teaser-layout-alzie h2, #teaser-layout-alzie p {
-    color: white; }
+          flex-direction: row; }
+  /* line 24, 2-home/_home-works.scss */
+  .teaser-layout-alzie .teaser-title,
+  .teaser-layout-alzie .teaser-desc {
+    color: #fff; }
 
-/* line 33, 2-home/_home-works.scss */
-#teaser-layout-ibeam {
+/* line 30, 2-home/_home-works.scss */
+.teaser-layout-ibeam {
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row;
-  background-color: white; }
-  /* line 39, 2-home/_home-works.scss */
-  #teaser-layout-ibeam h2, #teaser-layout-ibeam p {
+          flex-direction: row; }
+  /* line 35, 2-home/_home-works.scss */
+  .teaser-layout-ibeam .teaser-title,
+  .teaser-layout-ibeam .teaser-desc {
     color: #5b5b5b; }
-  /* line 43, 2-home/_home-works.scss */
-  #teaser-layout-ibeam .category {
-    text-transform: uppercase;
+  /* line 40, 2-home/_home-works.scss */
+  .teaser-layout-ibeam .category {
+    color: #5b5b5b;
     font-weight: 700;
     margin-top: em(30);
-    color: #5b5b5b; }
+    text-transform: uppercase; }
 
-/* line 51, 2-home/_home-works.scss */
+/* line 48, 2-home/_home-works.scss */
 .teaser-detail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -733,47 +733,51 @@ svg:hover #linkedin {
           justify-content: center;
   margin: 0;
   padding: 8% 15%;
-  width: 100%;
-  text-align: left; }
+  text-align: left;
+  width: 100%; }
 
-/* line 61, 2-home/_home-works.scss */
+/* line 58, 2-home/_home-works.scss */
 .teaser-img-alzie {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  padding: 8% 10% 8% 0; }
-  /* line 68, 2-home/_home-works.scss */
+  padding: 8% 10% 8% 0;
+  width: 100%; }
+  /* line 65, 2-home/_home-works.scss */
   .teaser-img-alzie img {
     width: 90%; }
 
-/* line 73, 2-home/_home-works.scss */
+/* line 70, 2-home/_home-works.scss */
 .teaser-img-ibeam {
   display: block;
-  width: 100%;
-  padding: 0 10% 8% 0; }
-  /* line 78, 2-home/_home-works.scss */
+  padding: 0 10% 8% 0;
+  width: 100%; }
+  /* line 75, 2-home/_home-works.scss */
   .teaser-img-ibeam img {
     width: 100%; }
 
-/* line 83, 2-home/_home-works.scss */
+/* line 80, 2-home/_home-works.scss */
 .teaser-opensource {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
               -ms-grid-row-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center; }
-  /* line 88, 2-home/_home-works.scss */
+  /* line 85, 2-home/_home-works.scss */
   .teaser-opensource .teaser-codebuddies {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #1e90ff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -781,21 +785,22 @@ svg:hover #linkedin {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 8% 10%;
-    background-color: #1e90ff; }
-    /* line 95, 2-home/_home-works.scss */
-    .teaser-opensource .teaser-codebuddies h2, .teaser-opensource .teaser-codebuddies p {
-      color: white; }
-    /* line 99, 2-home/_home-works.scss */
+    padding: 8% 10%; }
+    /* line 92, 2-home/_home-works.scss */
+    .teaser-opensource .teaser-codebuddies .teaser-title,
+    .teaser-opensource .teaser-codebuddies .teaser-desc {
+      color: #fff; }
+    /* line 97, 2-home/_home-works.scss */
     .teaser-opensource .teaser-codebuddies .btn-light {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-  /* line 104, 2-home/_home-works.scss */
+  /* line 102, 2-home/_home-works.scss */
   .teaser-opensource .teaser-odin {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #eee;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -803,46 +808,42 @@ svg:hover #linkedin {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 8% 10%;
-    background-color: #eee; }
-    /* line 111, 2-home/_home-works.scss */
-    .teaser-opensource .teaser-odin h2, .teaser-opensource .teaser-odin p {
+    padding: 8% 10%; }
+    /* line 109, 2-home/_home-works.scss */
+    .teaser-opensource .teaser-odin .teaser-title,
+    .teaser-opensource .teaser-odin .teaser-desc {
       color: #5b5b5b; }
-    /* line 115, 2-home/_home-works.scss */
+    /* line 114, 2-home/_home-works.scss */
     .teaser-opensource .teaser-odin .btn-dark {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
 
-/* Buttons */
-/* line 123, 2-home/_home-works.scss */
+/* line 122, 2-home/_home-works.scss */
 .btn-light {
-  margin-top: 1.6666666666666667em;
-  width: 210px;
+  color: #fff;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  color: white; }
+  margin-top: 1.6666666666666667em;
+  width: 210px; }
 
-/* line 130, 2-home/_home-works.scss */
+/* line 129, 2-home/_home-works.scss */
 .btn-light:hover {
-  opacity: 0.5; }
+  opacity: .5; }
 
-/* line 134, 2-home/_home-works.scss */
+/* line 133, 2-home/_home-works.scss */
 .btn-dark {
-  margin-top: 1.6666666666666667em;
-  width: 210px;
+  color: #5b5b5b;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  color: #5b5b5b; }
+  margin-top: 1.6666666666666667em;
+  width: 210px; }
 
-/* line 141, 2-home/_home-works.scss */
+/* line 140, 2-home/_home-works.scss */
 .btn-dark:hover {
-  opacity: 0.5; }
+  opacity: .5; }
 
 /* line 4, 2-home/_home-experiments.scss */
 .parallax-window {
@@ -899,11 +900,14 @@ svg:hover #linkedin {
 
 /* line 1, 2-home/_home-footer.scss */
 .footer-layout {
-  padding: 4em 0;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 4em 0; }
 
 /* line 6, 2-home/_home-footer.scss */
 .footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -911,23 +915,20 @@ svg:hover #linkedin {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
 /* line 14, 2-home/_home-footer.scss */
 .btn-contact {
-  margin-top: 1.6666666666666667em;
+  color: #5b5b5b;
   margin-bottom: 4.444444444444445em;
-  width: 11.666666666666666em;
-  color: #5b5b5b; }
+  margin-top: 1.6666666666666667em;
+  width: 11.666666666666666em; }
 
 /* line 21, 2-home/_home-footer.scss */
 .btn-contact:hover {
-  opacity: 0.5; }
+  opacity: .5; }
 
 /* line 1, 3-other/_contact.scss */
 .contact {

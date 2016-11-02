@@ -1,19 +1,19 @@
 .section-about {
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 
 .intro {
-  text-align: center;
-  font-weight: 700;
   color: $body-text;
+  font-weight: 700;
+  text-align: center;
 
   .sub-intro {
     font-weight: 100;
   }
 
-  /* Media Queries */
+  // * Media Queries *//
 
 }
