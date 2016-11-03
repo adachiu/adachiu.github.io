@@ -1,21 +1,19 @@
-@import "0-tools/normalize";
-// @import '0-tools/bourbon/bourbon';
-// @import "0-tools/neat/neat";
+@import '0-tools/normalize';
 
-@import "1-base/vars";
-@import "1-base/base";
-@import "1-base/buttons";
-@import "1-base/icons";
-@import "1-base/fonts";
+@import '1-base/vars';
+@import '1-base/base';
+@import '1-base/buttons';
+@import '1-base/icons';
+@import '1-base/fonts';
 
-@import "2-home/header";
-@import "2-home/home";
-@import "2-home/home-about";
-@import "2-home/home-works";
-@import "2-home/home-experiments";
-@import "2-home/home-footer";
+@import '2-home/header';
+@import '2-home/home';
+@import '2-home/home-about';
+@import '2-home/home-works';
+@import '2-home/home-experiments';
+@import '2-home/home-footer';
 
-@import "3-other/contact";
-@import "3-other/experiments";
+@import '3-other/contact';
+@import '3-other/experiments';
 
 // @import "4-projects/example";

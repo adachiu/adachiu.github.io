@@ -396,75 +396,76 @@ th {
 
 /* line 3, 1-base/_base.scss */
 h1 {
+  color: #5b5b5b;
+  font-size: 1.6666666666666667em;
   font-weight: 700;
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  font-size: 1.6666666666666667em;
-  color: #5b5b5b; }
+  text-decoration: none; }
 
 /* line 12, 1-base/_base.scss */
 h2 {
+  color: #5b5b5b;
+  font-size: 2.2222222222222223em;
   font-weight: 700;
+  letter-spacing: 2px;
   margin: 0;
   padding: 0 0 10px;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 2.2222222222222223em;
-  text-transform: uppercase;
-  color: #5b5b5b; }
+  text-transform: uppercase; }
 
 /* line 23, 1-base/_base.scss */
 h3 {
+  color: #000;
+  font-size: .8888888888888888em;
   font-weight: 700;
+  letter-spacing: 2px;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 0.8888888888888888em;
-  text-transform: uppercase;
-  color: #000; }
+  text-transform: uppercase; }
 
 /* line 34, 1-base/_base.scss */
-a, p {
-  text-decoration: none;
+a,
+p {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 300;
   margin: 0;
   padding: 0;
-  font-size: 1em;
-  font-weight: 300;
-  font-style: normal; }
+  text-decoration: none; }
 
-/* line 45, 1-base/_base.scss */
+/* line 46, 1-base/_base.scss */
 .flex-grid {
   display: block;
   padding: 10% 20%; }
 
-/* line 46, 1-base/_base.scss */
+/* line 47, 1-base/_base.scss */
 .col {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 
-/* line 48, 1-base/_base.scss */
+/* line 49, 1-base/_base.scss */
 .flex-grid-halves {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%; }
-  /* line 51, 1-base/_base.scss */
+  /* line 53, 1-base/_base.scss */
   .flex-grid-halves .flex-grid-halves .col {
     width: 50%; }
   @media only screen and (min-width: 200px) {
-    /* line 48, 1-base/_base.scss */
+    /* line 49, 1-base/_base.scss */
     .flex-grid-halves {
       display: block;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
-      /* line 56, 1-base/_base.scss */
+      /* line 59, 1-base/_base.scss */
       .flex-grid-halves .col {
         width: 100%; } }
   @media only screen and (min-width: 768px) {
-    /* line 48, 1-base/_base.scss */
+    /* line 49, 1-base/_base.scss */
     .flex-grid-halves {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -472,7 +473,7 @@ a, p {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap; } }
   @media only screen and (min-width: 1200px) {
-    /* line 48, 1-base/_base.scss */
+    /* line 49, 1-base/_base.scss */
     .flex-grid-halves {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -480,50 +481,49 @@ a, p {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap; } }
 
-/* line 76, 1-base/_base.scss */
-html, body {
-  min-height: 100vh;
-  min-height: 100vh;
-  background: #fff; }
-
-/* line 82, 1-base/_base.scss */
+/* line 81, 1-base/_base.scss */
+html,
 body {
+  background: #fff;
+  min-height: 100vh; }
+
+/* line 87, 1-base/_base.scss */
+body {
+  color: #5b5b5b;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-  color: #5b5b5b; }
+  text-decoration: none; }
 
-/* General button style (reset) */
 /* line 2, 1-base/_buttons.scss */
 .btn {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  background: none;
-  cursor: pointer;
-  text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 700;
   outline: none;
   position: relative;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
+  text-transform: uppercase;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
 
-/* line 21, 1-base/_buttons.scss */
+/* line 19, 1-base/_buttons.scss */
 .btn:after {
   content: '';
   position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  z-index: -1; }
 
 /* line 1, 2-home/_header.scss */
 .home-wrap header {
@@ -616,6 +616,9 @@ svg:hover #linkedin {
 
 /* line 1, 2-home/_home.scss */
 .home-sections {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -625,10 +628,7 @@ svg:hover #linkedin {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+          justify-content: center; }
 
 /* line 1, 2-home/_home-about.scss */
 .section-about {
