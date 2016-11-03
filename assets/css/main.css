@@ -484,14 +484,16 @@ html,
 body {
   background: #fff;
   margin: 0 auto;
-  min-height: 100vh; }
+  min-height: 100vh;
+  min-width: 100vw; }
 
-/* line 90, 1-base/_base.scss */
+/* line 91, 1-base/_base.scss */
 body {
   color: #5b5b5b;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 1.6;
+  min-width: 100vw;
   text-decoration: none;
   width: 100%; }
 
@@ -834,12 +836,11 @@ svg:hover .linkedin {
 .parallax-window {
   max-height: 30em;
   overflow: hidden;
-  padding: 0 10%;
   position: relative;
   text-align: center;
   width: 100%; }
 
-/* line 13, 2-home/_home-experiments.scss */
+/* line 12, 2-home/_home-experiments.scss */
 .parallax-static-content {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -854,13 +855,13 @@ svg:hover .linkedin {
   padding: 8em 0;
   position: relative;
   z-index: 9; }
-  /* line 21, 2-home/_home-experiments.scss */
+  /* line 20, 2-home/_home-experiments.scss */
   .parallax-static-content h2,
   .parallax-static-content p {
     color: #5b5b5b;
     margin: 0; }
 
-/* line 28, 2-home/_home-experiments.scss */
+/* line 27, 2-home/_home-experiments.scss */
 .parallax-background {
   background: url("/assets/img/home-experiments-bg.png");
   background-color: #f8f8f8;
@@ -873,13 +874,13 @@ svg:hover .linkedin {
   top: -10em;
   width: 100%; }
 
-/* line 41, 2-home/_home-experiments.scss */
+/* line 40, 2-home/_home-experiments.scss */
 .btn-exp {
   color: #5b5b5b;
   margin-top: 1.6666666666666667em;
   width: 11.666666666666666em; }
 
-/* line 47, 2-home/_home-experiments.scss */
+/* line 46, 2-home/_home-experiments.scss */
 .btn-exp:hover {
   opacity: .5; }
 
@@ -956,4 +957,5 @@ svg:hover .linkedin {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  width: 100vw; }
