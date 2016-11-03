@@ -462,6 +462,13 @@ p {
       /* line 61, 1-base/_base.scss */
       .flex-grid-halves .col {
         width: 100%; } }
+  @media only screen and (min-width: 320px) {
+    /* line 49, 1-base/_base.scss */
+    .flex-grid-halves {
+      display: block; }
+      /* line 70, 1-base/_base.scss */
+      .flex-grid-halves .col {
+        width: 100%; } }
   @media only screen and (min-width: 768px) {
     /* line 49, 1-base/_base.scss */
     .flex-grid-halves {
@@ -479,7 +486,7 @@ p {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap; } }
 
-/* line 83, 1-base/_base.scss */
+/* line 92, 1-base/_base.scss */
 html,
 body {
   background: #fff;
@@ -487,7 +494,7 @@ body {
   min-height: 100vh;
   min-width: 100vw; }
 
-/* line 91, 1-base/_base.scss */
+/* line 100, 1-base/_base.scss */
 body {
   color: #5b5b5b;
   font-family: 'Source Sans Pro', sans-serif;
@@ -837,10 +844,9 @@ svg:hover .linkedin {
   max-height: 30em;
   overflow: hidden;
   position: relative;
-  text-align: center;
   width: 100%; }
 
-/* line 12, 2-home/_home-experiments.scss */
+/* line 11, 2-home/_home-experiments.scss */
 .parallax-static-content {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -854,6 +860,7 @@ svg:hover .linkedin {
           flex-direction: column;
   padding: 8em 0;
   position: relative;
+  text-align: center;
   z-index: 9; }
   /* line 20, 2-home/_home-experiments.scss */
   .parallax-static-content h2,
