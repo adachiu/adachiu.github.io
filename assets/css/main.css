@@ -542,34 +542,27 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 15px 10%; }
-  /* line 9, 2-home/_header.scss */
-  .home-wrap header a {
-    color: #757b81;
-    text-decoration: none; }
-    /* line 13, 2-home/_header.scss */
-    .home-wrap header a:hover, .home-wrap header a:active {
-      color: #d3d3d3; }
 
-/* line 20, 2-home/_header.scss */
-.logo {
+/* line 10, 2-home/_header.scss */
+.header-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: auto;
   padding: 0; }
 
-/* line 26, 2-home/_header.scss */
-#logo {
+/* line 16, 2-home/_header.scss */
+.logo {
   color: #000;
   font-size: 1.1111111111111112em;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase; }
-  /* line 33, 2-home/_header.scss */
-  #logo:hover {
+  /* line 23, 2-home/_header.scss */
+  .logo:hover {
     color: #d3d3d3; }
 
-/* line 38, 2-home/_header.scss */
+/* line 28, 2-home/_header.scss */
 .social {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -582,36 +575,44 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin: 0; }
-  /* line 45, 2-home/_header.scss */
-  .social .svg-social {
+  /* line 35, 2-home/_header.scss */
+  .social .nav-social {
     fill: #757b81;
     height: 25px;
     padding: 0 10px;
     stroke: none;
     stroke-width: 1;
     width: 25px; }
-  /* line 55, 2-home/_header.scss */
+  /* line 45, 2-home/_header.scss */
   .social a {
     padding: 0 10px; }
 
+/* line 50, 2-home/_header.scss */
+.nav-social-text {
+  color: #757b81;
+  text-decoration: none; }
+  /* line 54, 2-home/_header.scss */
+  .nav-social-text:hover, .nav-social-text:active {
+    color: #d3d3d3; }
+
 /* line 60, 2-home/_header.scss */
-#svg-social {
+.nav-social-idle {
   fill: #757b81; }
 
 /* line 62, 2-home/_header.scss */
-svg:hover #twitter {
+svg:hover .twitter {
   fill: #55acee; }
 
 /* line 66, 2-home/_header.scss */
-svg:hover #dribbble {
+svg:hover .dribbble {
   fill: #ea4c89; }
 
 /* line 70, 2-home/_header.scss */
-svg:hover #instagram {
+svg:hover .instagram {
   fill: #1b5988; }
 
 /* line 74, 2-home/_header.scss */
-svg:hover #linkedin {
+svg:hover .linkedin {
   fill: #0077b5; }
 
 /* line 1, 2-home/_home.scss */
@@ -674,17 +675,7 @@ svg:hover #linkedin {
   width: 100%; }
 
 /* line 13, 2-home/_home-works.scss */
-.teaser {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%; }
-
-/* line 19, 2-home/_home-works.scss */
-.teaser-layout-alzie {
+.section-alzie {
   background-color: #6954bb;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -693,13 +684,13 @@ svg:hover #linkedin {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
-  /* line 24, 2-home/_home-works.scss */
-  .teaser-layout-alzie .teaser-title,
-  .teaser-layout-alzie .teaser-desc {
+  /* line 18, 2-home/_home-works.scss */
+  .section-alzie .project-title,
+  .section-alzie .project-desc {
     color: #fff; }
 
-/* line 30, 2-home/_home-works.scss */
-.teaser-layout-ibeam {
+/* line 24, 2-home/_home-works.scss */
+.section-ibeam {
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -708,19 +699,19 @@ svg:hover #linkedin {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
-  /* line 35, 2-home/_home-works.scss */
-  .teaser-layout-ibeam .teaser-title,
-  .teaser-layout-ibeam .teaser-desc {
+  /* line 29, 2-home/_home-works.scss */
+  .section-ibeam .project-title,
+  .section-ibeam .project-desc {
     color: #5b5b5b; }
-  /* line 40, 2-home/_home-works.scss */
-  .teaser-layout-ibeam .category {
+  /* line 34, 2-home/_home-works.scss */
+  .section-ibeam .category {
     color: #5b5b5b;
     font-weight: 700;
     margin-top: em(30);
     text-transform: uppercase; }
 
-/* line 48, 2-home/_home-works.scss */
-.teaser-detail {
+/* line 42, 2-home/_home-works.scss */
+.project-detail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -736,8 +727,8 @@ svg:hover #linkedin {
   text-align: left;
   width: 100%; }
 
-/* line 58, 2-home/_home-works.scss */
-.teaser-img-alzie {
+/* line 52, 2-home/_home-works.scss */
+.img-alzie {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -749,21 +740,21 @@ svg:hover #linkedin {
           justify-content: flex-end;
   padding: 8% 10% 8% 0;
   width: 100%; }
-  /* line 65, 2-home/_home-works.scss */
-  .teaser-img-alzie img {
+  /* line 59, 2-home/_home-works.scss */
+  .img-alzie img {
     width: 90%; }
 
-/* line 70, 2-home/_home-works.scss */
-.teaser-img-ibeam {
+/* line 64, 2-home/_home-works.scss */
+.img-ibeam {
   display: block;
   padding: 0 10% 8% 0;
   width: 100%; }
-  /* line 75, 2-home/_home-works.scss */
-  .teaser-img-ibeam img {
+  /* line 69, 2-home/_home-works.scss */
+  .img-ibeam img {
     width: 100%; }
 
-/* line 80, 2-home/_home-works.scss */
-.teaser-opensource {
+/* line 74, 2-home/_home-works.scss */
+.section-opensource {
   -webkit-box-align: center;
       -ms-flex-align: center;
               -ms-grid-row-align: center;
@@ -772,8 +763,8 @@ svg:hover #linkedin {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center; }
-  /* line 85, 2-home/_home-works.scss */
-  .teaser-opensource .teaser-codebuddies {
+  /* line 79, 2-home/_home-works.scss */
+  .section-opensource .section-codebuddies {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -786,17 +777,17 @@ svg:hover #linkedin {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 8% 10%; }
-    /* line 92, 2-home/_home-works.scss */
-    .teaser-opensource .teaser-codebuddies .teaser-title,
-    .teaser-opensource .teaser-codebuddies .teaser-desc {
+    /* line 86, 2-home/_home-works.scss */
+    .section-opensource .section-codebuddies .project-title,
+    .section-opensource .section-codebuddies .project-desc {
       color: #fff; }
-    /* line 97, 2-home/_home-works.scss */
-    .teaser-opensource .teaser-codebuddies .btn-light {
+    /* line 91, 2-home/_home-works.scss */
+    .section-opensource .section-codebuddies .btn-light {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-  /* line 102, 2-home/_home-works.scss */
-  .teaser-opensource .teaser-odin {
+  /* line 96, 2-home/_home-works.scss */
+  .section-opensource .section-odin {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -809,17 +800,17 @@ svg:hover #linkedin {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 8% 10%; }
-    /* line 109, 2-home/_home-works.scss */
-    .teaser-opensource .teaser-odin .teaser-title,
-    .teaser-opensource .teaser-odin .teaser-desc {
+    /* line 103, 2-home/_home-works.scss */
+    .section-opensource .section-odin .project-title,
+    .section-opensource .section-odin .project-desc {
       color: #5b5b5b; }
-    /* line 114, 2-home/_home-works.scss */
-    .teaser-opensource .teaser-odin .btn-dark {
+    /* line 108, 2-home/_home-works.scss */
+    .section-opensource .section-odin .btn-dark {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
 
-/* line 122, 2-home/_home-works.scss */
+/* line 116, 2-home/_home-works.scss */
 .btn-light {
   color: #fff;
   -webkit-box-pack: start;
@@ -828,11 +819,11 @@ svg:hover #linkedin {
   margin-top: 1.6666666666666667em;
   width: 210px; }
 
-/* line 129, 2-home/_home-works.scss */
+/* line 123, 2-home/_home-works.scss */
 .btn-light:hover {
   opacity: .5; }
 
-/* line 133, 2-home/_home-works.scss */
+/* line 127, 2-home/_home-works.scss */
 .btn-dark {
   color: #5b5b5b;
   -webkit-box-pack: start;
@@ -841,7 +832,7 @@ svg:hover #linkedin {
   margin-top: 1.6666666666666667em;
   width: 210px; }
 
-/* line 140, 2-home/_home-works.scss */
+/* line 134, 2-home/_home-works.scss */
 .btn-dark:hover {
   opacity: .5; }
 
@@ -899,7 +890,7 @@ svg:hover #linkedin {
   opacity: .5; }
 
 /* line 1, 2-home/_home-footer.scss */
-.footer-layout {
+.section-footer {
   background-color: #fff;
   padding: 4em 0; }
 

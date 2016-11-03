@@ -5,25 +5,15 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: 15px 10%;
-
-  a {
-    color: $header-text;
-    text-decoration: none;
-
-    &:hover,
-    &:active {
-      color: $header-hover;
-    }
-  }
 }
 
-.logo {
+.header-logo {
   display: flex;
   margin-right: auto;
   padding: 0;
 }
 
-#logo {
+.logo {
   color: $logo-color;
   font-size: 1.1111111111111112em; // 20px
   font-weight: 700;
@@ -42,7 +32,7 @@
   justify-content: flex-end;
   margin: 0;
 
-  .svg-social {
+  .nav-social {
     fill: $social-color;
     height: 25px;
     padding: 0 10px;
@@ -57,20 +47,30 @@
   }
 }
 
-#svg-social {fill: $social-color; }
+.nav-social-text {
+  color: $header-text;
+  text-decoration: none;
 
-svg:hover #twitter {
+  &:hover,
+  &:active {
+    color: $header-hover;
+  }
+}
+
+.nav-social-idle {fill: $social-color; } // inactive state color
+
+svg:hover .twitter {
   fill: $twitter-color;
 }
 
-svg:hover #dribbble {
+svg:hover .dribbble {
   fill: $dribbble-color;
 }
 
-svg:hover #instagram {
+svg:hover .instagram {
   fill: $instagram-color;
 }
 
-svg:hover #linkedin {
+svg:hover .linkedin {
   fill: $linkedin-color;
 }
