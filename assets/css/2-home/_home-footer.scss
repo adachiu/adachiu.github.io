@@ -1,6 +1,6 @@
 .section-footer {
   background-color: $bg-color;
-  padding: 4em 0;
+  padding: 8em 0 4em;
 }
 
 .footer {
@@ -10,12 +10,14 @@
   justify-content: center;
 }
 
+.footer-contact {
+  font-weight: $h1-secondary;
+}
 
 .btn-contact {
   color: $body-text;
-  margin-bottom: 4.444444444444445em; // 80px
+  margin-bottom: 8em; // 144px
   margin-top: 1.6666666666666667em; // 30px
-  width: 11.666666666666666em; // 210px
 }
 
 .btn-contact:hover {
