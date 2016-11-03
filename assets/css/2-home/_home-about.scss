@@ -7,11 +7,10 @@
 
 .intro {
   color: $body-text;
-  font-weight: 700;
   text-align: center;
 
   .sub-intro {
-    font-weight: 100;
+    font-weight: $h1-secondary;
   }
 
   // * Media Queries *//

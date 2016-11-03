@@ -50,11 +50,13 @@ p {
   display: flex;
   width: 100%;
 
-  .flex-grid-halves .col {width: 50%; }
+  .flex-grid-halves .col {
+    width: 50%;
+  }
+
   @media only screen
      and (min-width : 200px) {
     display: block;
-    flex-wrap: wrap;
 
     .col {
       width: 100%;
@@ -81,6 +83,7 @@ p {
 html,
 body {
   background: $bg-color;
+  margin: 0 auto;
   min-height: 100vh;
 }
 
@@ -90,4 +93,5 @@ body {
   font-size: 18px;
   line-height: 1.6;
   text-decoration: none;
+  width: 100%;
 }

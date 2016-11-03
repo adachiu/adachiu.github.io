@@ -3,17 +3,18 @@
   background-color: $bg-color;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 
   // * Media Queries * //
 }
 
+
 .section-alzie {
   background-color: $alzie-primary;
   display: flex;
   flex-direction: row;
+  width: 100%;
 
   .project-title,
   .project-desc {
@@ -25,17 +26,11 @@
   background-color: $bg-color;
   display: flex;
   flex-direction: row;
+  width: 100%;
 
   .project-title,
   .project-desc {
     color: $body-text;
-  }
-
-  .category {
-    color: $body-text;
-    font-weight: 700;
-    margin-top: em(30);
-    text-transform: uppercase;
   }
 }
 
@@ -75,6 +70,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
 
   .section-codebuddies {
     align-items: center;
