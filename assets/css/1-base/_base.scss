@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   color: $logo-color;
-  font-size: .8888888888888888em; // 16px
+  font-size: 1.389em; // 25px
   font-weight: 700;
   letter-spacing: 2px;
   margin: 0;
@@ -41,49 +41,6 @@ p {
   text-decoration: none;
 }
 
-// Grid
-
-.flex-grid {display: block; padding: 10% 20%; }
-.col {flex: 1; }
-
-.flex-grid-halves {
-  display: flex;
-  width: 100%;
-
-  .flex-grid-halves .col {
-    width: 50%;
-  }
-
-  @media only screen
-     and (min-width : 200px) {
-    display: block;
-
-    .col {
-      width: 100%;
-    }
-  }
-
-  @media only screen
-    and (min-width : 320px) {
-    display: block;
-
-    .col {
-      width: 100%;
-   }
-  }
-
-  @media only screen
-    and (min-width : 768px) {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  @media only screen
-    and (min-width : 1200px) {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-}
 
 // Selection colors
 
@@ -93,8 +50,8 @@ html,
 body {
   background: $bg-color;
   margin: 0 auto;
+  max-width: 100%;
   min-height: 100vh;
-  min-width: 100vw;
 }
 
 body {

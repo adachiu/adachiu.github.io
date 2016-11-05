@@ -417,7 +417,7 @@ h2 {
 /* line 23, 1-base/_base.scss */
 h3 {
   color: #000;
-  font-size: .8888888888888888em;
+  font-size: 1.389em;
   font-weight: 700;
   letter-spacing: 2px;
   margin: 0;
@@ -435,66 +435,15 @@ p {
   padding: 0;
   text-decoration: none; }
 
-/* line 46, 1-base/_base.scss */
-.flex-grid {
-  display: block;
-  padding: 10% 20%; }
-
-/* line 47, 1-base/_base.scss */
-.col {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
-
 /* line 49, 1-base/_base.scss */
-.flex-grid-halves {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%; }
-  /* line 53, 1-base/_base.scss */
-  .flex-grid-halves .flex-grid-halves .col {
-    width: 50%; }
-  @media only screen and (min-width: 200px) {
-    /* line 49, 1-base/_base.scss */
-    .flex-grid-halves {
-      display: block; }
-      /* line 61, 1-base/_base.scss */
-      .flex-grid-halves .col {
-        width: 100%; } }
-  @media only screen and (min-width: 320px) {
-    /* line 49, 1-base/_base.scss */
-    .flex-grid-halves {
-      display: block; }
-      /* line 70, 1-base/_base.scss */
-      .flex-grid-halves .col {
-        width: 100%; } }
-  @media only screen and (min-width: 768px) {
-    /* line 49, 1-base/_base.scss */
-    .flex-grid-halves {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; } }
-  @media only screen and (min-width: 1200px) {
-    /* line 49, 1-base/_base.scss */
-    .flex-grid-halves {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; } }
-
-/* line 92, 1-base/_base.scss */
 html,
 body {
   background: #fff;
   margin: 0 auto;
-  min-height: 100vh;
-  min-width: 100vw; }
+  max-width: 100%;
+  min-height: 100vh; }
 
-/* line 100, 1-base/_base.scss */
+/* line 57, 1-base/_base.scss */
 body {
   color: #5b5b5b;
   font-family: 'Source Sans Pro', sans-serif;
@@ -635,10 +584,7 @@ svg:hover .linkedin {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+          flex-direction: column; }
 
 /* line 1, 2-home/_home-about.scss */
 .section-about {
@@ -653,12 +599,26 @@ svg:hover .linkedin {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media only screen and (min-width: 320px) {
+    /* line 1, 2-home/_home-about.scss */
+    .section-about {
+      margin: 50px 20px;
+      width: auto; } }
+  @media only screen and (min-width: 768px) {
+    /* line 1, 2-home/_home-about.scss */
+    .section-about {
+      margin: 80px 0;
+      width: 60%; } }
+  @media only screen and (min-width: 1200px) {
+    /* line 1, 2-home/_home-about.scss */
+    .section-about {
+      width: 50%; } }
 
-/* line 8, 2-home/_home-about.scss */
+/* line 25, 2-home/_home-about.scss */
 .intro {
   color: #5b5b5b;
   text-align: center; }
-  /* line 12, 2-home/_home-about.scss */
+  /* line 29, 2-home/_home-about.scss */
   .intro .sub-intro {
     font-weight: 100; }
 
@@ -678,42 +638,13 @@ svg:hover .linkedin {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%; }
+  width: auto; }
 
 /* line 13, 2-home/_home-works.scss */
-.section-alzie {
-  background-color: #6954bb;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%; }
-  /* line 19, 2-home/_home-works.scss */
-  .section-alzie .project-title,
-  .section-alzie .project-desc {
-    color: #fff; }
-
-/* line 25, 2-home/_home-works.scss */
-.section-ibeam {
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%; }
-  /* line 31, 2-home/_home-works.scss */
-  .section-ibeam .project-title,
-  .section-ibeam .project-desc {
-    color: #5b5b5b; }
-
-/* line 37, 2-home/_home-works.scss */
-.project-detail {
+.section-projects {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -725,128 +656,249 @@ svg:hover .linkedin {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  padding: 8% 15%;
-  text-align: left;
+  text-align: center;
   width: 100%; }
+  @media only screen and (min-width: 320px) {
+    /* line 13, 2-home/_home-works.scss */
+    .section-projects {
+      display: block; } }
+  @media only screen and (min-width: 768px) {
+    /* line 13, 2-home/_home-works.scss */
+    .section-projects {
+      width: 80%; } }
 
-/* line 47, 2-home/_home-works.scss */
-.img-alzie {
+/* line 35, 2-home/_home-works.scss */
+.section-alzie {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5% 0;
+  padding: 2em;
+  position: relative;
+  text-align: center;
+  width: auto; }
+  @media only screen and (min-width: 320px) {
+    /* line 35, 2-home/_home-works.scss */
+    .section-alzie {
+      margin: 20px 20px 40px;
+      width: auto; } }
+  @media only screen and (min-width: 768px) {
+    /* line 35, 2-home/_home-works.scss */
+    .section-alzie {
+      margin: 0 0 40px;
+      width: auto; } }
+  /* line 61, 2-home/_home-works.scss */
+  .section-alzie .section-alzie-text {
+    padding: 0 0 0 10%;
+    text-align: left; }
+    /* line 65, 2-home/_home-works.scss */
+    .section-alzie .section-alzie-text .project-title,
+    .section-alzie .section-alzie-text .project-desc {
+      color: #5b5b5b; }
+    /* line 70, 2-home/_home-works.scss */
+    .section-alzie .section-alzie-text .btn-alzie {
+      color: #5b5b5b;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin-top: 1.6666666666666667em; }
+    /* line 76, 2-home/_home-works.scss */
+    .section-alzie .section-alzie-text .btn-alzie:hover {
+      opacity: .5; }
+
+/* line 82, 2-home/_home-works.scss */
+.section-alzie-img {
+  padding: 0 10% 0 0;
+  width: 50%; }
+
+/* line 87, 2-home/_home-works.scss */
+.section-alzie-img > img {
+  margin: 0;
+  max-height: 22.222em;
+  width: auto; }
+
+/* line 95, 2-home/_home-works.scss */
+.section-ibeam {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5% 0;
+  padding: 2em;
+  position: relative;
+  text-align: center;
+  width: auto; }
+  @media only screen and (min-width: 320px) {
+    /* line 95, 2-home/_home-works.scss */
+    .section-ibeam {
+      margin: 20px 20px 20px;
+      width: auto; } }
+  @media only screen and (min-width: 768px) {
+    /* line 95, 2-home/_home-works.scss */
+    .section-ibeam {
+      margin: 0 0 40px;
+      width: auto; } }
+  /* line 120, 2-home/_home-works.scss */
+  .section-ibeam .section-ibeam-text {
+    padding: 0 0 0 10%;
+    text-align: left; }
+    /* line 124, 2-home/_home-works.scss */
+    .section-ibeam .section-ibeam-text .project-title,
+    .section-ibeam .section-ibeam-text .project-desc {
+      color: #5b5b5b; }
+    /* line 129, 2-home/_home-works.scss */
+    .section-ibeam .section-ibeam-text .btn-ibeam {
+      color: #5b5b5b;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin-top: 1.6666666666666667em; }
+    /* line 135, 2-home/_home-works.scss */
+    .section-ibeam .section-ibeam-text .btn-ibeam:hover {
+      opacity: .5; }
+
+/* line 141, 2-home/_home-works.scss */
+.section-ibeam-img {
+  padding: 0 10% 0 0;
+  width: 50%; }
+
+/* line 146, 2-home/_home-works.scss */
+.section-ibeam-img > img {
+  margin: 0;
+  max-height: 22.222em;
+  width: auto; }
+
+/* line 154, 2-home/_home-works.scss */
+.section-opensource {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding: 8% 10% 8% 0;
-  width: 100%; }
-  /* line 54, 2-home/_home-works.scss */
-  .img-alzie img {
-    width: 90%; }
-
-/* line 59, 2-home/_home-works.scss */
-.img-ibeam {
-  display: block;
-  padding: 0 10% 8% 0;
-  width: 100%; }
-  /* line 64, 2-home/_home-works.scss */
-  .img-ibeam img {
-    width: 100%; }
-
-/* line 69, 2-home/_home-works.scss */
-.section-opensource {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-              -ms-grid-row-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
   text-align: center;
   width: 100%; }
-  /* line 75, 2-home/_home-works.scss */
-  .section-opensource .section-codebuddies {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #1e90ff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 8% 10%; }
-    /* line 82, 2-home/_home-works.scss */
-    .section-opensource .section-codebuddies .project-title,
-    .section-opensource .section-codebuddies .project-desc {
-      color: #fff; }
-    /* line 87, 2-home/_home-works.scss */
-    .section-opensource .section-codebuddies .btn-light {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-  /* line 92, 2-home/_home-works.scss */
-  .section-opensource .section-odin {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #eee;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 8% 10%; }
-    /* line 99, 2-home/_home-works.scss */
-    .section-opensource .section-odin .project-title,
-    .section-opensource .section-odin .project-desc {
-      color: #5b5b5b; }
-    /* line 104, 2-home/_home-works.scss */
-    .section-opensource .section-odin .btn-dark {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
+  @media only screen and (min-width: 320px) {
+    /* line 154, 2-home/_home-works.scss */
+    .section-opensource {
+      display: block; } }
+  @media only screen and (min-width: 768px) {
+    /* line 154, 2-home/_home-works.scss */
+    .section-opensource {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
 
-/* line 112, 2-home/_home-works.scss */
-.btn-light {
-  color: #fff;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-top: 1.6666666666666667em;
-  width: 210px; }
+/* line 175, 2-home/_home-works.scss */
+.section-codebuddies {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1e90ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 10px 20px 0;
+  padding: 8% 10%;
+  width: auto; }
+  @media only screen and (min-width: 320px) {
+    /* line 175, 2-home/_home-works.scss */
+    .section-codebuddies {
+      margin: 20px 20px 40px; } }
+  @media only screen and (min-width: 768px) {
+    /* line 175, 2-home/_home-works.scss */
+    .section-codebuddies {
+      margin: 0 10px 20px 0; } }
+  /* line 194, 2-home/_home-works.scss */
+  .section-codebuddies .project-title,
+  .section-codebuddies .project-desc {
+    color: #fff; }
+  /* line 199, 2-home/_home-works.scss */
+  .section-codebuddies .btn-codebuddies {
+    color: #fff;
+    margin-top: 1.6666666666666667em; }
+  /* line 204, 2-home/_home-works.scss */
+  .section-codebuddies .btn-codebuddies:hover {
+    opacity: .5; }
 
-/* line 119, 2-home/_home-works.scss */
-.btn-light:hover {
-  opacity: .5; }
-
-/* line 123, 2-home/_home-works.scss */
-.btn-dark {
-  color: #5b5b5b;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-top: 1.6666666666666667em;
-  width: 210px; }
-
-/* line 130, 2-home/_home-works.scss */
-.btn-dark:hover {
-  opacity: .5; }
+/* line 209, 2-home/_home-works.scss */
+.section-odin {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 20px 10px;
+  padding: 8% 10%;
+  width: auto; }
+  @media only screen and (min-width: 320px) {
+    /* line 209, 2-home/_home-works.scss */
+    .section-odin {
+      margin: 20px 20px 40px; } }
+  @media only screen and (min-width: 768px) {
+    /* line 209, 2-home/_home-works.scss */
+    .section-odin {
+      margin: 0 0 20px 10px; } }
+  /* line 228, 2-home/_home-works.scss */
+  .section-odin .project-title,
+  .section-odin .project-desc {
+    color: #5b5b5b; }
+  /* line 233, 2-home/_home-works.scss */
+  .section-odin .btn-odin {
+    color: #5b5b5b;
+    margin-top: 1.6666666666666667em; }
+  /* line 238, 2-home/_home-works.scss */
+  .section-odin .btn-odin:hover {
+    opacity: .5; }
 
 /* line 4, 2-home/_home-experiments.scss */
 .parallax-window {
   max-height: 30em;
   overflow: hidden;
   position: relative;
+  text-align: center;
   width: 100%; }
 
-/* line 11, 2-home/_home-experiments.scss */
+/* line 12, 2-home/_home-experiments.scss */
 .parallax-static-content {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -862,15 +914,24 @@ svg:hover .linkedin {
   position: relative;
   text-align: center;
   z-index: 9; }
-  /* line 20, 2-home/_home-experiments.scss */
+  /* line 21, 2-home/_home-experiments.scss */
   .parallax-static-content h2,
   .parallax-static-content p {
-    color: #5b5b5b;
+    color: #fff;
     margin: 0; }
+  @media only screen and (min-width: 320px) {
+    /* line 12, 2-home/_home-experiments.scss */
+    .parallax-static-content {
+      padding: 8em 2em; } }
+  @media only screen and (min-width: 768px) {
+    /* line 12, 2-home/_home-experiments.scss */
+    .parallax-static-content {
+      padding: 8em 2em; } }
 
-/* line 27, 2-home/_home-experiments.scss */
+/* line 38, 2-home/_home-experiments.scss */
 .parallax-background {
-  background: url("/assets/img/home-experiments-bg.png");
+  background: -webkit-linear-gradient(right, rgba(190, 147, 197, 0.7), rgba(123, 198, 204, 0.7)), url("/assets/img/home-experiments-bg.png");
+  background: linear-gradient(to left, rgba(190, 147, 197, 0.7), rgba(123, 198, 204, 0.7)), url("/assets/img/home-experiments-bg.png");
   background-color: #f8f8f8;
   background-position: top;
   background-repeat: no-repeat;
@@ -880,15 +941,18 @@ svg:hover .linkedin {
   position: absolute;
   top: -10em;
   width: 100%; }
+  @media only screen and (min-width: 320px) {
+    /* line 38, 2-home/_home-experiments.scss */
+    .parallax-background {
+      background-size: 100%; } }
 
-/* line 40, 2-home/_home-experiments.scss */
-.btn-exp {
-  color: #5b5b5b;
-  margin-top: 1.6666666666666667em;
-  width: 11.666666666666666em; }
+/* line 61, 2-home/_home-experiments.scss */
+.btn-experiments {
+  color: #fff;
+  margin-top: 1.6666666666666667em; }
 
-/* line 46, 2-home/_home-experiments.scss */
-.btn-exp:hover {
+/* line 66, 2-home/_home-experiments.scss */
+.btn-experiments:hover {
   opacity: .5; }
 
 /* line 1, 2-home/_home-footer.scss */
