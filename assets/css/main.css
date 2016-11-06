@@ -621,27 +621,13 @@ svg:hover .linkedin {
   /* line 29, 2-home/_home-about.scss */
   .intro .sub-intro {
     font-weight: 100; }
+  @media only screen and (min-width: 375px) {
+    /* line 25, 2-home/_home-about.scss */
+    .intro {
+      font-size: 1.5em; } }
 
 /* line 1, 2-home/_home-works.scss */
 .works {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: auto; }
-
-/* line 13, 2-home/_home-works.scss */
-.section-projects {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -656,18 +642,18 @@ svg:hover .linkedin {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  text-align: center;
+  padding: 0;
   width: 100%; }
   @media only screen and (min-width: 320px) {
-    /* line 13, 2-home/_home-works.scss */
-    .section-projects {
+    /* line 1, 2-home/_home-works.scss */
+    .works {
       display: block; } }
   @media only screen and (min-width: 768px) {
-    /* line 13, 2-home/_home-works.scss */
-    .section-projects {
+    /* line 1, 2-home/_home-works.scss */
+    .works {
       width: 80%; } }
 
-/* line 35, 2-home/_home-works.scss */
+/* line 23, 2-home/_home-works.scss */
 .section-alzie {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -689,46 +675,51 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 35, 2-home/_home-works.scss */
+    /* line 23, 2-home/_home-works.scss */
     .section-alzie {
       margin: 20px 20px 40px;
       width: auto; } }
   @media only screen and (min-width: 768px) {
-    /* line 35, 2-home/_home-works.scss */
+    /* line 23, 2-home/_home-works.scss */
     .section-alzie {
-      margin: 0 0 40px;
+      margin: 20px;
       width: auto; } }
-  /* line 61, 2-home/_home-works.scss */
+  @media only screen and (min-width: 1024px) {
+    /* line 23, 2-home/_home-works.scss */
+    .section-alzie {
+      margin: 20px 20px 40px;
+      width: auto; } }
+  /* line 54, 2-home/_home-works.scss */
   .section-alzie .section-alzie-text {
     padding: 0 0 0 10%;
     text-align: left; }
-    /* line 65, 2-home/_home-works.scss */
+    /* line 58, 2-home/_home-works.scss */
     .section-alzie .section-alzie-text .project-title,
     .section-alzie .section-alzie-text .project-desc {
       color: #5b5b5b; }
-    /* line 70, 2-home/_home-works.scss */
+    /* line 63, 2-home/_home-works.scss */
     .section-alzie .section-alzie-text .btn-alzie {
       color: #5b5b5b;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start;
       margin-top: 1.6666666666666667em; }
-    /* line 76, 2-home/_home-works.scss */
+    /* line 69, 2-home/_home-works.scss */
     .section-alzie .section-alzie-text .btn-alzie:hover {
       opacity: .5; }
 
-/* line 82, 2-home/_home-works.scss */
+/* line 75, 2-home/_home-works.scss */
 .section-alzie-img {
   padding: 0 10% 0 0;
   width: 50%; }
 
-/* line 87, 2-home/_home-works.scss */
+/* line 80, 2-home/_home-works.scss */
 .section-alzie-img > img {
   margin: 0;
   max-height: 22.222em;
   width: auto; }
 
-/* line 95, 2-home/_home-works.scss */
+/* line 88, 2-home/_home-works.scss */
 .section-ibeam {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -750,50 +741,47 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 95, 2-home/_home-works.scss */
+    /* line 88, 2-home/_home-works.scss */
     .section-ibeam {
-      margin: 20px 20px 20px;
+      margin: 20px 20px 40px;
       width: auto; } }
   @media only screen and (min-width: 768px) {
-    /* line 95, 2-home/_home-works.scss */
+    /* line 88, 2-home/_home-works.scss */
     .section-ibeam {
-      margin: 0 0 40px;
+      margin: 20px;
       width: auto; } }
-  /* line 120, 2-home/_home-works.scss */
+  /* line 113, 2-home/_home-works.scss */
   .section-ibeam .section-ibeam-text {
     padding: 0 0 0 10%;
     text-align: left; }
-    /* line 124, 2-home/_home-works.scss */
+    /* line 117, 2-home/_home-works.scss */
     .section-ibeam .section-ibeam-text .project-title,
     .section-ibeam .section-ibeam-text .project-desc {
       color: #5b5b5b; }
-    /* line 129, 2-home/_home-works.scss */
+    /* line 122, 2-home/_home-works.scss */
     .section-ibeam .section-ibeam-text .btn-ibeam {
       color: #5b5b5b;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start;
       margin-top: 1.6666666666666667em; }
-    /* line 135, 2-home/_home-works.scss */
+    /* line 128, 2-home/_home-works.scss */
     .section-ibeam .section-ibeam-text .btn-ibeam:hover {
       opacity: .5; }
 
-/* line 141, 2-home/_home-works.scss */
+/* line 134, 2-home/_home-works.scss */
 .section-ibeam-img {
   padding: 0 10% 0 0;
   width: 50%; }
 
-/* line 146, 2-home/_home-works.scss */
+/* line 139, 2-home/_home-works.scss */
 .section-ibeam-img > img {
   margin: 0;
   max-height: 22.222em;
   width: auto; }
 
-/* line 154, 2-home/_home-works.scss */
+/* line 147, 2-home/_home-works.scss */
 .section-opensource {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,24 +789,20 @@ svg:hover .linkedin {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin: 0;
-  text-align: center;
-  width: 100%; }
+  padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 154, 2-home/_home-works.scss */
+    /* line 147, 2-home/_home-works.scss */
     .section-opensource {
       display: block; } }
   @media only screen and (min-width: 768px) {
-    /* line 154, 2-home/_home-works.scss */
+    /* line 147, 2-home/_home-works.scss */
     .section-opensource {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
 
-/* line 175, 2-home/_home-works.scss */
+/* line 164, 2-home/_home-works.scss */
 .section-codebuddies {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -827,34 +811,45 @@ svg:hover .linkedin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 10px 20px 0;
-  padding: 8% 10%;
+  padding: 10% 5%;
+  text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 175, 2-home/_home-works.scss */
+    /* line 164, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 175, 2-home/_home-works.scss */
+    /* line 164, 2-home/_home-works.scss */
     .section-codebuddies {
-      margin: 0 10px 20px 0; } }
-  /* line 194, 2-home/_home-works.scss */
+      padding: 8% 10%;
+      margin: 20px; } }
+  @media only screen and (min-width: 1024px) {
+    /* line 164, 2-home/_home-works.scss */
+    .section-codebuddies {
+      margin: 20px 20px 40px;
+      padding: 8% 6%;
+      width: auto; } }
+  /* line 193, 2-home/_home-works.scss */
   .section-codebuddies .project-title,
   .section-codebuddies .project-desc {
     color: #fff; }
-  /* line 199, 2-home/_home-works.scss */
+  /* line 198, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies {
     color: #fff;
     margin-top: 1.6666666666666667em; }
-  /* line 204, 2-home/_home-works.scss */
+  /* line 203, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies:hover {
     opacity: .5; }
 
-/* line 209, 2-home/_home-works.scss */
+/* line 208, 2-home/_home-works.scss */
 .section-odin {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -863,30 +858,41 @@ svg:hover .linkedin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 0 20px 10px;
-  padding: 8% 10%;
+  padding: 10% 5%;
+  text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 209, 2-home/_home-works.scss */
+    /* line 208, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 209, 2-home/_home-works.scss */
+    /* line 208, 2-home/_home-works.scss */
     .section-odin {
-      margin: 0 0 20px 10px; } }
-  /* line 228, 2-home/_home-works.scss */
+      padding: 8% 10%;
+      margin: 20px; } }
+  @media only screen and (min-width: 1024px) {
+    /* line 208, 2-home/_home-works.scss */
+    .section-odin {
+      margin: 20px 20px 40px;
+      padding: 8% 6%;
+      width: auto; } }
+  /* line 237, 2-home/_home-works.scss */
   .section-odin .project-title,
   .section-odin .project-desc {
     color: #5b5b5b; }
-  /* line 233, 2-home/_home-works.scss */
+  /* line 242, 2-home/_home-works.scss */
   .section-odin .btn-odin {
     color: #5b5b5b;
     margin-top: 1.6666666666666667em; }
-  /* line 238, 2-home/_home-works.scss */
+  /* line 247, 2-home/_home-works.scss */
   .section-odin .btn-odin:hover {
     opacity: .5; }
 
