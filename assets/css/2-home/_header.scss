@@ -5,12 +5,39 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: 15px 10%;
+
+  @media only screen
+    and (min-width : 320px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 .header-logo {
   display: flex;
   margin-right: auto;
   padding: 0;
+
+  @media only screen
+    and (min-width : 320px) {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    display: flex;
+    margin-left: 0;
+  }
 }
 
 .logo {
@@ -44,6 +71,18 @@
 
   a {
     padding: 0 10px;
+  }
+
+  @media only screen
+    and (min-width : 320px) {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 

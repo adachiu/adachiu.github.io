@@ -500,27 +500,68 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 15px 10%; }
+  @media only screen and (min-width: 320px) {
+    /* line 1, 2-home/_header.scss */
+    .home-wrap header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+  @media only screen and (min-width: 768px) {
+    /* line 1, 2-home/_header.scss */
+    .home-wrap header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; } }
 
-/* line 10, 2-home/_header.scss */
+/* line 24, 2-home/_header.scss */
 .header-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: auto;
   padding: 0; }
+  @media only screen and (min-width: 320px) {
+    /* line 24, 2-home/_header.scss */
+    .header-logo {
+      display: block;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0 auto; } }
+  @media only screen and (min-width: 768px) {
+    /* line 24, 2-home/_header.scss */
+    .header-logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 0; } }
 
-/* line 16, 2-home/_header.scss */
+/* line 43, 2-home/_header.scss */
 .logo {
   color: #000;
   font-size: 1.1111111111111112em;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase; }
-  /* line 23, 2-home/_header.scss */
+  /* line 50, 2-home/_header.scss */
   .logo:hover {
     color: #d3d3d3; }
 
-/* line 28, 2-home/_header.scss */
+/* line 55, 2-home/_header.scss */
 .social {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -533,7 +574,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin: 0; }
-  /* line 35, 2-home/_header.scss */
+  /* line 62, 2-home/_header.scss */
   .social .nav-social {
     fill: #757b81;
     height: 25px;
@@ -541,35 +582,53 @@ body {
     stroke: none;
     stroke-width: 1;
     width: 25px; }
-  /* line 45, 2-home/_header.scss */
+  /* line 72, 2-home/_header.scss */
   .social a {
     padding: 0 10px; }
+  @media only screen and (min-width: 320px) {
+    /* line 55, 2-home/_header.scss */
+    .social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+  @media only screen and (min-width: 768px) {
+    /* line 55, 2-home/_header.scss */
+    .social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; } }
 
-/* line 50, 2-home/_header.scss */
+/* line 89, 2-home/_header.scss */
 .nav-social-text {
   color: #757b81;
   text-decoration: none; }
-  /* line 54, 2-home/_header.scss */
+  /* line 93, 2-home/_header.scss */
   .nav-social-text:hover, .nav-social-text:active {
     color: #d3d3d3; }
 
-/* line 60, 2-home/_header.scss */
+/* line 99, 2-home/_header.scss */
 .nav-social-idle {
   fill: #757b81; }
 
-/* line 62, 2-home/_header.scss */
+/* line 101, 2-home/_header.scss */
 svg:hover .twitter {
   fill: #55acee; }
 
-/* line 66, 2-home/_header.scss */
+/* line 105, 2-home/_header.scss */
 svg:hover .dribbble {
   fill: #ea4c89; }
 
-/* line 70, 2-home/_header.scss */
+/* line 109, 2-home/_header.scss */
 svg:hover .instagram {
   fill: #1b5988; }
 
-/* line 74, 2-home/_header.scss */
+/* line 113, 2-home/_header.scss */
 svg:hover .linkedin {
   fill: #0077b5; }
 
