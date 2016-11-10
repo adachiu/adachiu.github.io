@@ -593,7 +593,8 @@ body {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; } }
+              justify-content: center;
+      margin-top: 20px; } }
   @media only screen and (min-width: 768px) {
     /* line 55, 2-home/_header.scss */
     .social {
@@ -602,33 +603,34 @@ body {
       display: flex;
       -webkit-box-pack: end;
           -ms-flex-pack: end;
-              justify-content: flex-end; } }
+              justify-content: flex-end;
+      margin-top: 0; } }
 
-/* line 90, 2-home/_header.scss */
+/* line 92, 2-home/_header.scss */
 .nav-social-idle {
   fill: #757b81; }
 
-/* line 92, 2-home/_header.scss */
+/* line 94, 2-home/_header.scss */
 svg:hover .email {
   fill: #000; }
 
-/* line 96, 2-home/_header.scss */
+/* line 98, 2-home/_header.scss */
 svg:hover .dribbble {
   fill: #ea4c89; }
 
-/* line 100, 2-home/_header.scss */
+/* line 102, 2-home/_header.scss */
 svg:hover .instagram {
   fill: #1b5988; }
 
-/* line 104, 2-home/_header.scss */
+/* line 106, 2-home/_header.scss */
 svg:hover .github {
   fill: #000; }
 
-/* line 108, 2-home/_header.scss */
+/* line 110, 2-home/_header.scss */
 svg:hover .twitter {
   fill: #55acee; }
 
-/* line 112, 2-home/_header.scss */
+/* line 114, 2-home/_header.scss */
 svg:hover .linkedin {
   fill: #0077b5; }
 
