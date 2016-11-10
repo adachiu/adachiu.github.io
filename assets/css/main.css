@@ -578,7 +578,7 @@ body {
   .social .nav-social {
     fill: #757b81;
     height: 25px;
-    padding: 0 10px;
+    padding: 0 18px;
     stroke: none;
     stroke-width: 1;
     width: 25px; }
@@ -604,31 +604,31 @@ body {
           -ms-flex-pack: end;
               justify-content: flex-end; } }
 
-/* line 89, 2-home/_header.scss */
-.nav-social-text {
-  color: #757b81;
-  text-decoration: none; }
-  /* line 93, 2-home/_header.scss */
-  .nav-social-text:hover, .nav-social-text:active {
-    color: #d3d3d3; }
-
-/* line 99, 2-home/_header.scss */
+/* line 90, 2-home/_header.scss */
 .nav-social-idle {
   fill: #757b81; }
 
-/* line 101, 2-home/_header.scss */
-svg:hover .twitter {
-  fill: #55acee; }
+/* line 92, 2-home/_header.scss */
+svg:hover .email {
+  fill: #000; }
 
-/* line 105, 2-home/_header.scss */
+/* line 96, 2-home/_header.scss */
 svg:hover .dribbble {
   fill: #ea4c89; }
 
-/* line 109, 2-home/_header.scss */
+/* line 100, 2-home/_header.scss */
 svg:hover .instagram {
   fill: #1b5988; }
 
-/* line 113, 2-home/_header.scss */
+/* line 104, 2-home/_header.scss */
+svg:hover .github {
+  fill: #000; }
+
+/* line 108, 2-home/_header.scss */
+svg:hover .twitter {
+  fill: #55acee; }
+
+/* line 112, 2-home/_header.scss */
 svg:hover .linkedin {
   fill: #0077b5; }
 
