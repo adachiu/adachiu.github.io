@@ -625,7 +625,7 @@ svg:hover .github {
 
 /* line 106, 2-home/_header.scss */
 svg:visited .github {
-  color: #757b81; }
+  fill: #757b81; }
 
 /* line 110, 2-home/_header.scss */
 svg:hover .twitter {
