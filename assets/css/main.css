@@ -712,6 +712,16 @@ svg:hover .linkedin {
       width: 80%; } }
 
 /* line 23, 2-home/_home-works.scss */
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+/* line 28, 2-home/_home-works.scss */
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+/* line 34, 2-home/_home-works.scss */
 .section-alzie {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -733,51 +743,51 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 23, 2-home/_home-works.scss */
+    /* line 34, 2-home/_home-works.scss */
     .section-alzie {
       margin: 20px 20px 40px;
       width: auto; } }
   @media only screen and (min-width: 768px) {
-    /* line 23, 2-home/_home-works.scss */
+    /* line 34, 2-home/_home-works.scss */
     .section-alzie {
       margin: 20px;
       width: auto; } }
   @media only screen and (min-width: 1024px) {
-    /* line 23, 2-home/_home-works.scss */
+    /* line 34, 2-home/_home-works.scss */
     .section-alzie {
       margin: 20px 20px 40px;
       width: auto; } }
-  /* line 54, 2-home/_home-works.scss */
+  /* line 65, 2-home/_home-works.scss */
   .section-alzie .section-alzie-text {
     padding: 0 0 0 10%;
     text-align: left; }
-    /* line 58, 2-home/_home-works.scss */
+    /* line 69, 2-home/_home-works.scss */
     .section-alzie .section-alzie-text .project-title,
     .section-alzie .section-alzie-text .project-desc {
       color: #5b5b5b; }
-    /* line 63, 2-home/_home-works.scss */
+    /* line 74, 2-home/_home-works.scss */
     .section-alzie .section-alzie-text .btn-alzie {
       color: #5b5b5b;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start;
       margin-top: 1.6666666666666667em; }
-    /* line 69, 2-home/_home-works.scss */
+    /* line 80, 2-home/_home-works.scss */
     .section-alzie .section-alzie-text .btn-alzie:hover {
       opacity: .5; }
 
-/* line 75, 2-home/_home-works.scss */
+/* line 86, 2-home/_home-works.scss */
 .section-alzie-img {
   padding: 0 10% 0 0;
   width: 50%; }
 
-/* line 80, 2-home/_home-works.scss */
+/* line 91, 2-home/_home-works.scss */
 .section-alzie-img > img {
   margin: 0;
   max-height: 22.222em;
   width: auto; }
 
-/* line 88, 2-home/_home-works.scss */
+/* line 99, 2-home/_home-works.scss */
 .section-ibeam {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -799,46 +809,46 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 88, 2-home/_home-works.scss */
+    /* line 99, 2-home/_home-works.scss */
     .section-ibeam {
       margin: 20px 20px 40px;
       width: auto; } }
   @media only screen and (min-width: 768px) {
-    /* line 88, 2-home/_home-works.scss */
+    /* line 99, 2-home/_home-works.scss */
     .section-ibeam {
       margin: 20px;
       width: auto; } }
-  /* line 113, 2-home/_home-works.scss */
+  /* line 124, 2-home/_home-works.scss */
   .section-ibeam .section-ibeam-text {
     padding: 0 0 0 10%;
     text-align: left; }
-    /* line 117, 2-home/_home-works.scss */
+    /* line 128, 2-home/_home-works.scss */
     .section-ibeam .section-ibeam-text .project-title,
     .section-ibeam .section-ibeam-text .project-desc {
       color: #5b5b5b; }
-    /* line 122, 2-home/_home-works.scss */
+    /* line 133, 2-home/_home-works.scss */
     .section-ibeam .section-ibeam-text .btn-ibeam {
       color: #5b5b5b;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start;
       margin-top: 1.6666666666666667em; }
-    /* line 128, 2-home/_home-works.scss */
+    /* line 139, 2-home/_home-works.scss */
     .section-ibeam .section-ibeam-text .btn-ibeam:hover {
       opacity: .5; }
 
-/* line 134, 2-home/_home-works.scss */
+/* line 145, 2-home/_home-works.scss */
 .section-ibeam-img {
   padding: 0 10% 0 0;
   width: 50%; }
 
-/* line 139, 2-home/_home-works.scss */
+/* line 150, 2-home/_home-works.scss */
 .section-ibeam-img > img {
   margin: 0;
   max-height: 22.222em;
   width: auto; }
 
-/* line 147, 2-home/_home-works.scss */
+/* line 158, 2-home/_home-works.scss */
 .section-opensource {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -850,17 +860,17 @@ svg:hover .linkedin {
   margin: 0;
   padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 147, 2-home/_home-works.scss */
+    /* line 158, 2-home/_home-works.scss */
     .section-opensource {
       display: block; } }
   @media only screen and (min-width: 768px) {
-    /* line 147, 2-home/_home-works.scss */
+    /* line 158, 2-home/_home-works.scss */
     .section-opensource {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
 
-/* line 164, 2-home/_home-works.scss */
+/* line 175, 2-home/_home-works.scss */
 .section-codebuddies {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -881,33 +891,33 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 164, 2-home/_home-works.scss */
+    /* line 175, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 164, 2-home/_home-works.scss */
+    /* line 175, 2-home/_home-works.scss */
     .section-codebuddies {
-      padding: 8% 10%;
-      margin: 20px; } }
+      margin: 20px;
+      padding: 8% 10%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 164, 2-home/_home-works.scss */
+    /* line 175, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px 20px 40px;
       padding: 8% 6%;
       width: auto; } }
-  /* line 193, 2-home/_home-works.scss */
+  /* line 204, 2-home/_home-works.scss */
   .section-codebuddies .project-title,
   .section-codebuddies .project-desc {
     color: #fff; }
-  /* line 198, 2-home/_home-works.scss */
+  /* line 209, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies {
     color: #fff;
     margin-top: 1.6666666666666667em; }
-  /* line 203, 2-home/_home-works.scss */
+  /* line 214, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies:hover {
     opacity: .5; }
 
-/* line 208, 2-home/_home-works.scss */
+/* line 219, 2-home/_home-works.scss */
 .section-odin {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -928,29 +938,29 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 208, 2-home/_home-works.scss */
+    /* line 219, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 208, 2-home/_home-works.scss */
+    /* line 219, 2-home/_home-works.scss */
     .section-odin {
-      padding: 8% 10%;
-      margin: 20px; } }
+      margin: 20px;
+      padding: 8% 10%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 208, 2-home/_home-works.scss */
+    /* line 219, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px 20px 40px;
       padding: 8% 6%;
       width: auto; } }
-  /* line 237, 2-home/_home-works.scss */
+  /* line 248, 2-home/_home-works.scss */
   .section-odin .project-title,
   .section-odin .project-desc {
     color: #5b5b5b; }
-  /* line 242, 2-home/_home-works.scss */
+  /* line 253, 2-home/_home-works.scss */
   .section-odin .btn-odin {
     color: #5b5b5b;
     margin-top: 1.6666666666666667em; }
-  /* line 247, 2-home/_home-works.scss */
+  /* line 258, 2-home/_home-works.scss */
   .section-odin .btn-odin:hover {
     opacity: .5; }
 
