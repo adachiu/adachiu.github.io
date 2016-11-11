@@ -82,10 +82,6 @@
     justify-content: flex-end;
     margin-top: 0;
   }
-
-  a:visited {
-    color: $social-color;
-  }
 }
 
 
@@ -105,6 +101,10 @@ svg:hover .instagram {
 
 svg:hover .github {
   fill: $github-color;
+}
+
+svg:visited .github {
+  color: $social-color;
 }
 
 svg:hover .twitter {

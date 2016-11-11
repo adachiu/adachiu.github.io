@@ -602,29 +602,30 @@ body {
           -ms-flex-pack: end;
               justify-content: flex-end;
       margin-top: 0; } }
-  /* line 86, 2-home/_header.scss */
-  .social a:visited {
-    color: #757b81; }
 
-/* line 92, 2-home/_header.scss */
+/* line 88, 2-home/_header.scss */
 .nav-social-idle {
   fill: #757b81; }
 
-/* line 94, 2-home/_header.scss */
+/* line 90, 2-home/_header.scss */
 svg:hover .email {
   fill: #000; }
 
-/* line 98, 2-home/_header.scss */
+/* line 94, 2-home/_header.scss */
 svg:hover .dribbble {
   fill: #ea4c89; }
 
-/* line 102, 2-home/_header.scss */
+/* line 98, 2-home/_header.scss */
 svg:hover .instagram {
   fill: #1b5988; }
 
-/* line 106, 2-home/_header.scss */
+/* line 102, 2-home/_header.scss */
 svg:hover .github {
   fill: #000; }
+
+/* line 106, 2-home/_header.scss */
+svg:visited .github {
+  color: #757b81; }
 
 /* line 110, 2-home/_header.scss */
 svg:hover .twitter {
