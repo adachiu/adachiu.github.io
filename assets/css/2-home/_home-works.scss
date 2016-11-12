@@ -16,6 +16,21 @@
     and (min-width : 768px) {
     width: 80%;
   }
+
+  @media only screen
+    and (min-width : 1600px) { // Desktop
+    width: 60%;
+  }
+
+  @media only screen
+    and (min-width : 2304px) { // 21" iMac 4K
+    width: 50%;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    width: 60%;
+  }
 }
 
 // * Card * //
@@ -162,6 +177,10 @@
   margin: 0;
   padding: 0;
 
+  p {
+    margin-top: 1.6666666666666667em; // 30px
+  }
+
   @media only screen
     and (min-width : 320px) {
     display: block;
@@ -175,7 +194,7 @@
 
 .section-codebuddies {
   align-items: center;
-  background-color: $cb-main;
+  background-color: $bg-color;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -187,28 +206,52 @@
   @media only screen
     and (min-width : 320px) {
     margin: 20px 20px 40px;
+
+    .cb-logo {
+      width: 70%;
+    }
   }
 
   @media only screen
     and (min-width : 768px) {
     margin: 20px;
-    padding: 8% 10%;
+    padding: 8% 5%;
+
+    .cb-logo {
+      width: 70%;
+    }
   }
 
   @media only screen
     and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
-    margin: 20px 20px 40px;
-    padding: 8% 6%;
-    width: auto;
+    margin: 20px;
+    padding: 8% 5%;
   }
 
-  .project-title,
+  @media only screen
+    and (min-width : 1600px) { // 13" Macbook Retina
+    margin: 20px;
+    padding: 8% 5%;
+  }
+
+  @media only screen
+    and (min-width : 1800px) { // 15" Macbook Retina
+    margin: 20px;
+    padding: 8%;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    margin: 20px;
+    padding: 5% 12%;
+  }
+
   .project-desc {
-    color: $light-text;
+    color: $body-text;
   }
 
   .btn-codebuddies {
-    color: $btn-light;
+    color: $btn-dark;
     margin-top: 1.6666666666666667em; // 30px
   }
 
@@ -219,7 +262,7 @@
 
 .section-odin {
   align-items: center;
-  background-color: $odin-bg;
+  background-color: $bg-color;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -242,11 +285,10 @@
   @media only screen
     and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
     margin: 20px 20px 40px;
-    padding: 8% 6%;
+    padding: 5%;
     width: auto;
   }
 
-  .project-title,
   .project-desc {
     color: $body-text;
   }
