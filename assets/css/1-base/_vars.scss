@@ -40,27 +40,13 @@ $accent-color: #2b61d6;
 $alzie-primary: #6954bb;
 $alzie-accent: #4f3f8d;
 
+// Ibeam Colors
+
+$ibeam-bg: #f5f5f5;
+
 // CodeBuddies Colors
 $cb-main: #1e90ff;
 
 // Odin Colors
 $odin-bg: #eee;
 $odin-bg2: #d8d8d8;
-
-// Breakpoints
-// Small screen max-width 640px
-$small: new-breakpoint(max-width 40em, 12);
-// Medium screen min-width 641px
-$medium: new-breakpoint(min-width 40.063em, 12);
-// Medium screen min-width 641px and max-width 1024px
-$medium-2: new-breakpoint(min-width 40.063em max-width 64em, 12);
-// Large screen min-width 1025px
-$large: new-breakpoint(min-width 64.063em, 12);
-// Large screen min-width 1025px and max-width 1440px
-$large-2: new-breakpoint(min-width 64.063em max-width 90em, 12);
-// Extra large screens  min-width 1441px
-$xlarge: new-breakpoint(min-width 90.063em, 12);
-// Extra large screens  min-width 1441px and max-width 1920px
-$xlarge-2: new-breakpoint(min-width 90.063em max-width 120em, 12);
-// Extra Extra large screens min-width 1921px
-$xlarge-3: new-breakpoint(min-width 120.063em, 12);

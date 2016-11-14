@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0;
+  margin: 0 0 40px;
   padding: 0;
   width: 100%;
 
@@ -54,9 +54,12 @@
   height: auto; //alt 22.222em;
   margin: 5% 0;
   padding: 2em;
-//  position: relative;
   text-align: left;
   width: auto;
+
+  p {
+    margin-top: 1.6666666666666667em; // 30px
+  }
 
   @media only screen
     and (min-width : 320px) {
@@ -80,7 +83,6 @@
     padding: 0 0 0 10%;
     text-align: left;
 
-    .project-title,
     .project-desc {
       color: $body-text;
     }
@@ -98,31 +100,29 @@
   }
 }
 
-.section-alzie-img {
-  padding: 0 10% 0 0;
-  width: 50%;
-}
 
-.section-alzie-img > img {
-  margin: 0;
-  max-height: 22.222em;
-  width: auto;
-}
 
 // * Ibeam * //
 
 .section-ibeam {
   align-items: center;
-  background-color: $bg-light;
-  display: block; //flex
+  background-color: $ibeam-bg;
+  background-image: url('/assets/img/ibeam/ibeam-card.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50%, contain;
+  display: flex;
   flex-direction: row;
-  height: auto; //alt 22.222em;
-  justify-content: center;
+  height: 30em;
   margin: 5% 0;
   padding: 2em;
   position: relative;
   text-align: center;
   width: auto;
+
+  p {
+    margin-top: 1.6666666666666667em; // 30px
+  }
 
   @media only screen
     and (min-width : 320px) {
@@ -140,7 +140,6 @@
     padding: 0 0 0 10%;
     text-align: left;
 
-    .project-title,
     .project-desc {
       color: $body-text;
     }
@@ -158,15 +157,8 @@
   }
 }
 
-.section-ibeam-img {
-  padding: 0 10% 0 0;
-  width: 50%;
-}
-
-.section-ibeam-img > img {
-  margin: 0;
-  max-height: 22.222em;
-  width: auto;
+.ibeam-logo {
+  padding: 0 50% 0 0;
 }
 
 // * Open Source * //
@@ -274,19 +266,44 @@
   @media only screen
     and (min-width : 320px) {
     margin: 20px 20px 40px;
+
+    .cb-logo {
+      width: 70%;
+    }
   }
 
   @media only screen
     and (min-width : 768px) {
     margin: 20px;
-    padding: 8% 10%;
+    padding: 8% 5%;
+
+    .cb-logo {
+      width: 70%;
+    }
   }
 
   @media only screen
     and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
-    margin: 20px 20px 40px;
-    padding: 5%;
-    width: auto;
+    margin: 20px;
+    padding: 8% 5%;
+  }
+
+  @media only screen
+    and (min-width : 1600px) { // 13" Macbook Retina
+    margin: 20px;
+    padding: 8% 5%;
+  }
+
+  @media only screen
+    and (min-width : 1800px) { // 15" Macbook Retina
+    margin: 20px;
+    padding: 8%;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    margin: 20px;
+    padding: 5% 12%;
   }
 
   .project-desc {
