@@ -48,13 +48,18 @@
 
 .section-alzie {
   align-items: center;
-  background-color: $bg-light;
-  display: block;
+  background-color: $alzie-primary;
+  background-image: url('/assets/img/ibeam/ibeam-card.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50%, contain;
+  display: flex;
   flex-direction: row;
-  height: auto; //alt 22.222em;
+  height: 30em;
   margin: 5% 0;
   padding: 2em;
-  text-align: left;
+  position: relative;
+  text-align: center;
   width: auto;
 
   p {
@@ -63,44 +68,127 @@
 
   @media only screen
     and (min-width : 320px) {
+    background-image: none;
+    height: auto;
+    justify-content: center;
     margin: 20px 20px 40px;
-//    width: auto;
   }
 
   @media only screen
-    and (min-width : 768px) {
-    margin: 20px;
-  //  width: auto;
-  }
-
-  @media only screen
-    and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
+    and (min-width : 768px) { // iPad Air
+    background-image: url('/assets/img/alzie/alzie-phone.png');
+    background-position: right 30px center;
+    background-repeat: no-repeat;
+    background-size: 45%, contain;
+    height: 15em;
+    justify-content: flex-start;
     margin: 20px 20px 40px;
     width: auto;
   }
 
-  .section-alzie-text {
-    padding: 0 0 0 10%;
-    text-align: left;
+  @media only screen
+    and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
+    background-size: 35%, contain;
+    height: 18em;
+  }
 
-    .project-desc {
-      color: $body-text;
-    }
+  @media only screen
+    and (min-width : 1200px) { // Browser Universal Laptop
+    height: 25em;
+  }
 
-    .btn-alzie {
-      color: $btn-dark;
-      justify-content: flex-start;
-      margin-top: 1.6666666666666667em; // 30px
-      padding: 0;
-    }
+  @media only screen
+    and (min-width : 1600px) { // 13" Macbook Retina
+    background-size: 32%, contain;
+    height: 20em;
+  }
 
-    .btn-alzie:hover {
-      opacity: .5;
-    }
+  @media only screen
+    and (min-width : 1800px) { // 15" Macbook Retina
+    height: 25em;
+  }
+
+  @media only screen
+    and (min-width : 2304px) { // 21" iMac 4K
+    height: 30em;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    height: 40em;
   }
 }
 
+.section-alzie-text {
+  padding: 0 0 0 10%;
+  text-align: left;
 
+  @media only screen
+    and (min-width : 320px) {
+    padding: 0;
+    text-align: center;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    padding: 0 0 0 5%;
+    text-align: left;
+    width: 50%;
+  }
+
+  @media only screen
+    and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
+    width: 30%;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    width: 30%;
+  }
+
+  .project-desc {
+    color: $light-text;
+  }
+}
+
+.btn-alzie {
+  color: $btn-light;
+  justify-content: flex-start;
+  margin-top: 1.6666666666666667em; // 30px
+  padding: 0;
+
+  @media only screen
+    and (min-width : 320px) {
+    justify-content: center;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    justify-content: flex-start;
+  }
+}
+
+.btn-alzie:hover {
+  opacity: .5;
+}
+
+.alzie-logo {
+
+  @media only screen
+    and (min-width : 320px) {
+    padding: 0 30%;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    padding: 0 75% 0 0;
+  }
+
+  @media only screen
+    and (min-width : 1024px) {
+    padding: 0 65% 0 0;
+  }
+}
 
 // * Ibeam * //
 
@@ -130,7 +218,6 @@
     height: auto;
     justify-content: center;
     margin: 20px 20px 40px;
-    width: auto;
   }
 
   @media only screen
@@ -153,11 +240,6 @@
   @media only screen
     and (min-width : 1200px) { // Browser Universal Laptop
     height: 25em;
-  }
-
-  @media only screen
-    and (min-width : 1600px) { // 13" Macbook Retina
-    height: 20em;
   }
 
   @media only screen
@@ -243,17 +325,12 @@
   }
 
   @media only screen
-    and (min-width : 768px) { // Browser Universal Laptop
+    and (min-width : 768px) {
     padding: 0 70% 0 0;
   }
 
   @media only screen
-    and (min-width : 1200px) { // Browser Universal Laptop
-    padding: 0 70% 0 0;
-  }
-
-  @media only screen
-    and (min-width : 1600px) { // Browser Universal Laptop
+    and (min-width : 1600px) {
     padding: 0 60% 0 0;
   }
 }
@@ -297,7 +374,7 @@
     margin: 20px 20px 40px;
 
     .cb-logo {
-      width: 70%;
+      width: 60%;
     }
   }
 
@@ -307,7 +384,7 @@
     padding: 8% 5%;
 
     .cb-logo {
-      width: 70%;
+      width: 60%;
     }
   }
 
@@ -365,7 +442,7 @@
     margin: 20px 20px 40px;
 
     .cb-logo {
-      width: 70%;
+      width: 60%;
     }
   }
 
@@ -375,7 +452,7 @@
     padding: 8% 5%;
 
     .cb-logo {
-      width: 70%;
+      width: 60%;
     }
   }
 
