@@ -126,39 +126,136 @@
 
   @media only screen
     and (min-width : 320px) {
+    background-image: none;
+    height: auto;
+    justify-content: center;
     margin: 20px 20px 40px;
     width: auto;
   }
 
   @media only screen
-    and (min-width : 768px) {
+    and (min-width : 768px) { // iPad Air
+    background-image: url('/assets/img/ibeam/ibeam-card.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%, contain;
+    height: 15em;
+    justify-content: flex-start;
     margin: 20px;
     width: auto;
   }
 
-  .section-ibeam-text {
-    padding: 0 0 0 10%;
-    text-align: left;
-
-    .project-desc {
-      color: $body-text;
-    }
-
-    .btn-ibeam {
-      color: $btn-dark;
-      justify-content: flex-start;
-      margin-top: 1.6666666666666667em; // 30px
-      padding: 0;
-    }
-
-    .btn-ibeam:hover {
-      opacity: .5;
-    }
+  @media only screen
+    and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
+    height: 18em;
   }
+
+  @media only screen
+    and (min-width : 1200px) { // Browser Universal Laptop
+    height: 25em;
+  }
+
+  @media only screen
+    and (min-width : 1600px) { // 13" Macbook Retina
+    height: 20em;
+  }
+
+  @media only screen
+    and (min-width : 1800px) { // 15" Macbook Retina
+    height: 25em;
+  }
+
+  @media only screen
+    and (min-width : 2304px) { // 21" iMac 4K
+    height: 30em;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    height: 40em;
+  }
+}
+
+.section-ibeam-text {
+  padding: 0 0 0 10%;
+  text-align: left;
+
+  @media only screen
+    and (min-width : 320px) {
+    padding: 0;
+    text-align: center;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    padding: 0 0 0 5%;
+    text-align: left;
+    width: 50%;
+  }
+
+  @media only screen
+    and (min-width : 1024px) { //iPad mini 4 and iPad Air 2
+    width: 40%;
+  }
+
+  @media only screen
+    and (min-width : 1600px) { // 13" Macbook Retina
+    width: auto;
+  }
+
+  @media only screen
+    and (min-width : 2880px) { // 27" iMac 4K
+    width: 30%;
+  }
+
+  .project-desc {
+    color: $body-text;
+  }
+}
+
+.btn-ibeam {
+  color: $btn-dark;
+  justify-content: flex-start;
+  margin-top: 1.6666666666666667em; // 30px
+  padding: 0;
+
+  @media only screen
+    and (min-width : 320px) {
+    justify-content: center;
+  }
+
+  @media only screen
+    and (min-width : 768px) {
+    justify-content: flex-start;
+  }
+}
+
+.btn-ibeam:hover {
+  opacity: .5;
 }
 
 .ibeam-logo {
   padding: 0 50% 0 0;
+
+  @media only screen
+    and (min-width : 320px) {
+    padding: 0 25%;
+  }
+
+  @media only screen
+    and (min-width : 768px) { // Browser Universal Laptop
+    padding: 0 70% 0 0;
+  }
+
+  @media only screen
+    and (min-width : 1200px) { // Browser Universal Laptop
+    padding: 0 70% 0 0;
+  }
+
+  @media only screen
+    and (min-width : 1600px) { // Browser Universal Laptop
+    padding: 0 60% 0 0;
+  }
 }
 
 // * Open Source * //
