@@ -803,7 +803,7 @@ svg:hover .linkedin {
       background-image: url("/assets/img/alzie/alzie-phone.png");
       background-position: right 30px center;
       background-repeat: no-repeat;
-      background-size: 45%, contain;
+      background-size: 35%, contain;
       height: 15em;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
@@ -864,22 +864,29 @@ svg:hover .linkedin {
           -ms-flex-align: start;
                   -ms-grid-row-align: flex-start;
               align-items: flex-start;
+      font-size: .7em;
       padding: 0 0 0 5%;
       text-align: left;
-      width: 50%; } }
+      width: 45%; } }
   @media only screen and (min-width: 1024px) {
     /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
-      width: 30%; } }
+      font-size: 1em;
+      width: 40%; } }
+  @media only screen and (min-width: 1200px) {
+    /* line 122, 2-home/_home-works.scss */
+    .section-alzie-text {
+      font-size: 1em;
+      width: 35%; } }
   @media only screen and (min-width: 2880px) {
     /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
       width: 30%; } }
-  /* line 153, 2-home/_home-works.scss */
+  /* line 161, 2-home/_home-works.scss */
   .section-alzie-text .project-desc {
     color: #fff; }
 
-/* line 158, 2-home/_home-works.scss */
+/* line 166, 2-home/_home-works.scss */
 .btn-alzie {
   color: #fff;
   -webkit-box-pack: start;
@@ -888,36 +895,36 @@ svg:hover .linkedin {
   margin-top: 1.6666666666666667em;
   padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 158, 2-home/_home-works.scss */
+    /* line 166, 2-home/_home-works.scss */
     .btn-alzie {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 158, 2-home/_home-works.scss */
+    /* line 166, 2-home/_home-works.scss */
     .btn-alzie {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; } }
 
-/* line 175, 2-home/_home-works.scss */
+/* line 183, 2-home/_home-works.scss */
 .btn-alzie:hover {
   opacity: .5; }
 
 @media only screen and (min-width: 320px) {
-  /* line 179, 2-home/_home-works.scss */
+  /* line 187, 2-home/_home-works.scss */
   .alzie-logo {
     width: 25%; } }
 @media only screen and (min-width: 768px) {
-  /* line 179, 2-home/_home-works.scss */
+  /* line 187, 2-home/_home-works.scss */
   .alzie-logo {
     width: 25%; } }
 @media only screen and (min-width: 1024px) {
-  /* line 179, 2-home/_home-works.scss */
+  /* line 187, 2-home/_home-works.scss */
   .alzie-logo {
     width: 30%; } }
 
-/* line 199, 2-home/_home-works.scss */
+/* line 207, 2-home/_home-works.scss */
 .section-ibeam {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -940,11 +947,11 @@ svg:hover .linkedin {
   position: relative;
   text-align: center;
   width: auto; }
-  /* line 215, 2-home/_home-works.scss */
+  /* line 223, 2-home/_home-works.scss */
   .section-ibeam p {
     margin-top: 1.6666666666666667em; }
   @media only screen and (min-width: 320px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       background-image: none;
       height: auto;
@@ -953,7 +960,7 @@ svg:hover .linkedin {
               justify-content: center;
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       background-image: url("/assets/img/ibeam/ibeam-card.png");
       background-position: top right;
@@ -966,27 +973,27 @@ svg:hover .linkedin {
       margin: 20px;
       width: auto; } }
   @media only screen and (min-width: 1024px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 18em; } }
   @media only screen and (min-width: 1200px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 25em; } }
   @media only screen and (min-width: 1800px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 25em; } }
   @media only screen and (min-width: 2304px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 30em; } }
   @media only screen and (min-width: 2880px) {
-    /* line 199, 2-home/_home-works.scss */
+    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 40em; } }
 
-/* line 265, 2-home/_home-works.scss */
+/* line 273, 2-home/_home-works.scss */
 .section-ibeam-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -998,7 +1005,7 @@ svg:hover .linkedin {
   padding: 0 0 0 10%;
   text-align: left; }
   @media only screen and (min-width: 320px) {
-    /* line 265, 2-home/_home-works.scss */
+    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -1007,32 +1014,34 @@ svg:hover .linkedin {
       padding: 0;
       text-align: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 265, 2-home/_home-works.scss */
+    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       -webkit-box-align: start;
           -ms-flex-align: start;
                   -ms-grid-row-align: flex-start;
               align-items: flex-start;
+      font-size: .7em;
       padding: 0 0 0 5%;
       text-align: left;
-      width: 50%; } }
+      width: 45%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 265, 2-home/_home-works.scss */
+    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
+      font-size: 1em;
       width: 40%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 265, 2-home/_home-works.scss */
+    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       width: auto; } }
   @media only screen and (min-width: 2880px) {
-    /* line 265, 2-home/_home-works.scss */
+    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       width: 30%; } }
-  /* line 301, 2-home/_home-works.scss */
+  /* line 311, 2-home/_home-works.scss */
   .section-ibeam-text .project-desc {
     color: #5b5b5b; }
 
-/* line 306, 2-home/_home-works.scss */
+/* line 316, 2-home/_home-works.scss */
 .btn-ibeam {
   color: #5b5b5b;
   -webkit-box-pack: start;
@@ -1041,39 +1050,39 @@ svg:hover .linkedin {
   margin-top: 1.6666666666666667em;
   padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 306, 2-home/_home-works.scss */
+    /* line 316, 2-home/_home-works.scss */
     .btn-ibeam {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 306, 2-home/_home-works.scss */
+    /* line 316, 2-home/_home-works.scss */
     .btn-ibeam {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; } }
 
-/* line 323, 2-home/_home-works.scss */
+/* line 333, 2-home/_home-works.scss */
 .btn-ibeam:hover {
   opacity: .5; }
 
-/* line 327, 2-home/_home-works.scss */
+/* line 337, 2-home/_home-works.scss */
 .ibeam-logo {
   width: 40%; }
   @media only screen and (min-width: 320px) {
-    /* line 327, 2-home/_home-works.scss */
+    /* line 337, 2-home/_home-works.scss */
     .ibeam-logo {
       width: 40%; } }
   @media only screen and (min-width: 768px) {
-    /* line 327, 2-home/_home-works.scss */
+    /* line 337, 2-home/_home-works.scss */
     .ibeam-logo {
       width: 30%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 327, 2-home/_home-works.scss */
+    /* line 337, 2-home/_home-works.scss */
     .ibeam-logo {
       width: 45%; } }
 
-/* line 348, 2-home/_home-works.scss */
+/* line 358, 2-home/_home-works.scss */
 .section-opensource {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1084,21 +1093,27 @@ svg:hover .linkedin {
           flex-direction: row;
   margin: 0;
   padding: 0; }
-  /* line 354, 2-home/_home-works.scss */
+  /* line 364, 2-home/_home-works.scss */
   .section-opensource p {
     margin-top: 1.6666666666666667em; }
   @media only screen and (min-width: 320px) {
-    /* line 348, 2-home/_home-works.scss */
+    /* line 358, 2-home/_home-works.scss */
     .section-opensource {
-      display: block; } }
+      display: block;
+      font-size: 1em; } }
   @media only screen and (min-width: 768px) {
-    /* line 348, 2-home/_home-works.scss */
+    /* line 358, 2-home/_home-works.scss */
     .section-opensource {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; } }
+      display: flex;
+      font-size: .7em; } }
+  @media only screen and (min-width: 1024px) {
+    /* line 358, 2-home/_home-works.scss */
+    .section-opensource {
+      font-size: 1em; } }
 
-/* line 369, 2-home/_home-works.scss */
+/* line 386, 2-home/_home-works.scss */
 .section-codebuddies {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1119,52 +1134,52 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 369, 2-home/_home-works.scss */
+    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px 20px 40px; }
-      /* line 384, 2-home/_home-works.scss */
+      /* line 401, 2-home/_home-works.scss */
       .section-codebuddies .cb-logo {
         width: 60%; } }
   @media only screen and (min-width: 768px) {
-    /* line 369, 2-home/_home-works.scss */
+    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8% 5%; }
-      /* line 394, 2-home/_home-works.scss */
+      /* line 411, 2-home/_home-works.scss */
       .section-codebuddies .cb-logo {
         width: 60%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 369, 2-home/_home-works.scss */
+    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 369, 2-home/_home-works.scss */
+    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1800px) {
-    /* line 369, 2-home/_home-works.scss */
+    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 369, 2-home/_home-works.scss */
+    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 5% 12%; } }
-  /* line 423, 2-home/_home-works.scss */
+  /* line 440, 2-home/_home-works.scss */
   .section-codebuddies .project-desc {
     color: #5b5b5b; }
-  /* line 427, 2-home/_home-works.scss */
+  /* line 444, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies {
     color: #5b5b5b;
     margin-top: 1.6666666666666667em; }
-  /* line 432, 2-home/_home-works.scss */
+  /* line 449, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies:hover {
     opacity: .5; }
 
-/* line 437, 2-home/_home-works.scss */
+/* line 454, 2-home/_home-works.scss */
 .section-odin {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1185,48 +1200,48 @@ svg:hover .linkedin {
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 437, 2-home/_home-works.scss */
+    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px 20px 40px; }
-      /* line 452, 2-home/_home-works.scss */
+      /* line 469, 2-home/_home-works.scss */
       .section-odin .cb-logo {
         width: 60%; } }
   @media only screen and (min-width: 768px) {
-    /* line 437, 2-home/_home-works.scss */
+    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8% 5%; }
-      /* line 462, 2-home/_home-works.scss */
+      /* line 479, 2-home/_home-works.scss */
       .section-odin .cb-logo {
         width: 60%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 437, 2-home/_home-works.scss */
+    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 437, 2-home/_home-works.scss */
+    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1800px) {
-    /* line 437, 2-home/_home-works.scss */
+    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 437, 2-home/_home-works.scss */
+    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 5% 12%; } }
-  /* line 491, 2-home/_home-works.scss */
+  /* line 508, 2-home/_home-works.scss */
   .section-odin .project-desc {
     color: #5b5b5b; }
-  /* line 495, 2-home/_home-works.scss */
+  /* line 512, 2-home/_home-works.scss */
   .section-odin .btn-odin {
     color: #5b5b5b;
     margin-top: 1.6666666666666667em; }
-  /* line 500, 2-home/_home-works.scss */
+  /* line 517, 2-home/_home-works.scss */
   .section-odin .btn-odin:hover {
     opacity: .5; }
 
