@@ -1147,7 +1147,7 @@ svg:hover .linkedin {
       padding: 8% 5%; }
       /* line 411, 2-home/_home-works.scss */
       .section-codebuddies .cb-logo {
-        width: 60%; } }
+        width: 80%; } }
   @media only screen and (min-width: 1024px) {
     /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
@@ -1204,7 +1204,7 @@ svg:hover .linkedin {
     .section-odin {
       margin: 20px 20px 40px; }
       /* line 469, 2-home/_home-works.scss */
-      .section-odin .cb-logo {
+      .section-odin .odin-logo {
         width: 60%; } }
   @media only screen and (min-width: 768px) {
     /* line 454, 2-home/_home-works.scss */
@@ -1212,8 +1212,8 @@ svg:hover .linkedin {
       margin: 20px;
       padding: 8% 5%; }
       /* line 479, 2-home/_home-works.scss */
-      .section-odin .cb-logo {
-        width: 60%; } }
+      .section-odin .odin-logo {
+        width: 80%; } }
   @media only screen and (min-width: 1024px) {
     /* line 454, 2-home/_home-works.scss */
     .section-odin {
