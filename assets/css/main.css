@@ -446,6 +446,7 @@ body {
   font-weight: 700;
   justify-content: center;
   letter-spacing: 1px;
+  margin-top: 1.6666666666666667em;
   outline: none;
   position: relative;
   text-transform: uppercase;
@@ -718,7 +719,6 @@ svg:hover .linkedin {
 .btn-alzie {
   color: #fff;
   justify-content: flex-start;
-  margin-top: 1.6666666666666667em;
   padding: 0; }
   @media only screen and (min-width: 320px) {
     .btn-alzie {
@@ -821,7 +821,6 @@ svg:hover .linkedin {
 .btn-ibeam {
   color: #5b5b5b;
   justify-content: flex-start;
-  margin-top: 1.6666666666666667em;
   padding: 0; }
   @media only screen and (min-width: 320px) {
     .btn-ibeam {
@@ -904,8 +903,7 @@ svg:hover .linkedin {
   .section-codebuddies .project-desc {
     color: #5b5b5b; }
   .section-codebuddies .btn-codebuddies {
-    color: #5b5b5b;
-    margin-top: 1.6666666666666667em; }
+    color: #5b5b5b; }
   .section-codebuddies .btn-codebuddies:hover {
     opacity: .5; }
 
@@ -949,8 +947,7 @@ svg:hover .linkedin {
   .section-odin .project-desc {
     color: #5b5b5b; }
   .section-odin .btn-odin {
-    color: #5b5b5b;
-    margin-top: 1.6666666666666667em; }
+    color: #5b5b5b; }
   .section-odin .btn-odin:hover {
     opacity: .5; }
 
@@ -996,8 +993,7 @@ svg:hover .linkedin {
       background-size: 100%; } }
 
 .btn-experiments {
-  color: #fff;
-  margin-top: 1.6666666666666667em; }
+  color: #fff; }
 
 .section-footer {
   background-color: #fff;
@@ -1014,8 +1010,7 @@ svg:hover .linkedin {
 
 .btn-contact {
   color: #5b5b5b;
-  margin-bottom: 8em;
-  margin-top: 1.6666666666666667em; }
+  margin-bottom: 8em; }
 
 .contact {
   align-items: center;
