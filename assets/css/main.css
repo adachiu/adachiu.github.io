@@ -5,7 +5,6 @@
  *    user zoom.
  */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,400,300,700,400italic);
-/* line 9, 0-tools/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -17,7 +16,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, 0-tools/_normalize.scss */
 body {
   margin: 0; }
 
@@ -29,7 +27,6 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 33, 0-tools/_normalize.scss */
 article,
 aside,
 details,
@@ -49,7 +46,6 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, 0-tools/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -63,7 +59,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, 0-tools/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -72,7 +67,6 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 77, 0-tools/_normalize.scss */
 [hidden],
 template {
   display: none; }
@@ -82,14 +76,12 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, 0-tools/_normalize.scss */
 a {
   background-color: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 97, 0-tools/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -99,14 +91,12 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 109, 0-tools/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 117, 0-tools/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -114,7 +104,6 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 126, 0-tools/_normalize.scss */
 dfn {
   font-style: italic; }
 
@@ -122,7 +111,6 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 135, 0-tools/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -130,7 +118,6 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 144, 0-tools/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -138,14 +125,12 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 153, 0-tools/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 161, 0-tools/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -153,11 +138,9 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 169, 0-tools/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 173, 0-tools/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -166,14 +149,12 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, 0-tools/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, 0-tools/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -182,29 +163,26 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, 0-tools/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, 0-tools/_normalize.scss */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, 0-tools/_normalize.scss */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, 0-tools/_normalize.scss */
 code,
 kbd,
 pre,
@@ -224,7 +202,6 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, 0-tools/_normalize.scss */
 button,
 input,
 optgroup,
@@ -240,7 +217,6 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, 0-tools/_normalize.scss */
 button {
   overflow: visible; }
 
@@ -250,7 +226,6 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, 0-tools/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -262,7 +237,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, 0-tools/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -275,7 +249,6 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, 0-tools/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -283,7 +256,6 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, 0-tools/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -293,7 +265,6 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, 0-tools/_normalize.scss */
 input {
   line-height: normal; }
 
@@ -304,7 +275,6 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, 0-tools/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -317,7 +287,6 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, 0-tools/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -327,10 +296,11 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, 0-tools/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -339,7 +309,6 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 370, 0-tools/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -347,7 +316,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, 0-tools/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -357,7 +325,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, 0-tools/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -367,7 +334,6 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, 0-tools/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -375,7 +341,6 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, 0-tools/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
@@ -384,17 +349,14 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, 0-tools/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 424, 0-tools/_normalize.scss */
 td,
 th {
   padding: 0; }
 
-/* line 3, 1-base/_base.scss */
 h1 {
   color: #5b5b5b;
   font-size: 1.6666666666666667em;
@@ -403,7 +365,6 @@ h1 {
   padding: 0;
   text-decoration: none; }
 
-/* line 12, 1-base/_base.scss */
 h2 {
   color: #5b5b5b;
   font-size: 2.2222222222222223em;
@@ -414,7 +375,6 @@ h2 {
   text-decoration: none;
   text-transform: uppercase; }
 
-/* line 23, 1-base/_base.scss */
 h3 {
   color: #000;
   font-size: 1.389em;
@@ -425,7 +385,6 @@ h3 {
   text-decoration: none;
   text-transform: uppercase; }
 
-/* line 34, 1-base/_base.scss */
 a,
 p {
   font-size: 1em;
@@ -435,7 +394,15 @@ p {
   padding: 0;
   text-decoration: none; }
 
-/* line 49, 1-base/_base.scss */
+.light-text {
+  color: #5b5b5b;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  @media only screen and (min-width: 320px) {
+    .light-text {
+      justify-content: center; } }
+
 html,
 body {
   background: #fff;
@@ -443,7 +410,6 @@ body {
   max-width: 100%;
   min-height: 100vh; }
 
-/* line 57, 1-base/_base.scss */
 body {
   color: #5b5b5b;
   font-family: 'Source Sans Pro', sans-serif;
@@ -453,128 +419,94 @@ body {
   text-decoration: none;
   width: 100%; }
 
-/* line 2, 1-base/_buttons.scss */
+@media only screen and (min-width: 320px) {
+  .title-h3 {
+    padding: 150px 50px 50px; } }
+
+@media only screen and (min-width: 768px) {
+  .title-h3 {
+    padding: 150px 0 50px; } }
+
+@media only screen and (min-width: 1024px) {
+  .title-h3 {
+    padding: 160px 0 50px; } }
+
+@media only screen and (min-width: 2304px) {
+  .title-h3 {
+    padding: 200px 0 50px; } }
+
 .btn {
   background: none;
   border: 0;
   color: inherit;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: inherit;
   font-size: inherit;
   font-weight: 700;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   letter-spacing: 1px;
   outline: none;
   position: relative;
   text-transform: uppercase;
-  -webkit-transition: all .3s;
   transition: all .3s; }
 
-/* line 19, 1-base/_buttons.scss */
 .btn:after {
   content: '';
   position: absolute;
-  -webkit-transition: all .3s;
   transition: all .3s;
   z-index: -1; }
 
-/* line 1, 2-home/_header.scss */
+.btn:hover {
+  opacity: .5; }
+
 .home-wrap header {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
   padding: 15px 10%; }
   @media only screen and (min-width: 320px) {
-    /* line 1, 2-home/_header.scss */
     .home-wrap header {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; } }
+      flex-direction: column;
+      justify-content: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 1, 2-home/_header.scss */
     .home-wrap header {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end; } }
+      flex-direction: row;
+      justify-content: flex-end; } }
 
-/* line 24, 2-home/_header.scss */
 .header-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-right: auto;
   padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 24, 2-home/_header.scss */
     .header-logo {
       display: block;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      justify-content: center;
       margin: 0 auto; } }
   @media only screen and (min-width: 768px) {
-    /* line 24, 2-home/_header.scss */
     .header-logo {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       margin-left: 0; } }
 
-/* line 43, 2-home/_header.scss */
 .logo {
   color: #000;
   font-size: 1.1111111111111112em;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase; }
-  /* line 50, 2-home/_header.scss */
   .logo:hover {
     color: #d3d3d3; }
 
-/* line 55, 2-home/_header.scss */
 .social {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
   font-size: 1em;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   margin: 0; }
-  /* line 62, 2-home/_header.scss */
   .social .nav-social {
     fill: #757b81;
     height: 20px;
@@ -583,669 +515,445 @@ body {
     stroke-width: 1;
     width: 20px; }
   @media only screen and (min-width: 320px) {
-    /* line 55, 2-home/_header.scss */
     .social {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      justify-content: center;
       margin-top: 20px; } }
   @media only screen and (min-width: 768px) {
-    /* line 55, 2-home/_header.scss */
     .social {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end;
+      justify-content: flex-end;
       margin-top: 0; } }
 
-/* line 88, 2-home/_header.scss */
 .nav-social-idle {
   fill: #757b81; }
 
-/* line 90, 2-home/_header.scss */
 svg:hover .email {
   fill: #000; }
 
-/* line 94, 2-home/_header.scss */
 svg:hover .dribbble {
   fill: #ea4c89; }
 
-/* line 98, 2-home/_header.scss */
 svg:hover .instagram {
   fill: #1b5988; }
 
-/* line 102, 2-home/_header.scss */
 svg:hover .github {
   fill: #000; }
 
-/* line 106, 2-home/_header.scss */
 svg:visited .github {
   fill: #757b81; }
 
-/* line 110, 2-home/_header.scss */
 svg:hover .twitter {
   fill: #55acee; }
 
-/* line 114, 2-home/_header.scss */
 svg:hover .linkedin {
   fill: #0077b5; }
 
-/* line 1, 2-home/_home.scss */
 .home-sections {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  flex-direction: column; }
 
-/* line 1, 2-home/_home-about.scss */
 .section-about {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-              -ms-grid-row-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
   @media only screen and (min-width: 320px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       margin: 60px 20px 50px;
       width: auto; } }
   @media only screen and (min-width: 768px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       margin: 60px 0 50px;
       width: 70%; } }
   @media only screen and (min-width: 768px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       margin: 90px 0 70px;
       width: 60%; } }
   @media only screen and (min-width: 1200px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       width: 50%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       width: 50%; } }
   @media only screen and (min-width: 2304px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       margin: 180px 0 150px;
       width: 40%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 1, 2-home/_home-about.scss */
     .section-about {
       margin: 200px 0 170px;
       width: 50%; } }
 
-/* line 49, 2-home/_home-about.scss */
 .intro {
   color: #5b5b5b;
   font-weight: 100;
   text-align: center; }
   @media only screen and (min-width: 320px) {
-    /* line 49, 2-home/_home-about.scss */
     .intro {
       font-size: 1.2em; } }
   @media only screen and (min-width: 1600px) {
-    /* line 49, 2-home/_home-about.scss */
     .intro {
       font-size: 1.5em; } }
   @media only screen and (min-width: 2880px) {
-    /* line 49, 2-home/_home-about.scss */
     .intro {
       font-size: 2.5em; } }
 
-/* line 1, 2-home/_home-works.scss */
 .works {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 0 40px;
   padding: 0;
   width: 100%; }
   @media only screen and (min-width: 320px) {
-    /* line 1, 2-home/_home-works.scss */
     .works {
       display: block; } }
   @media only screen and (min-width: 768px) {
-    /* line 1, 2-home/_home-works.scss */
     .works {
       width: 80%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 1, 2-home/_home-works.scss */
     .works {
       width: 60%; } }
   @media only screen and (min-width: 2304px) {
-    /* line 1, 2-home/_home-works.scss */
     .works {
       width: 50%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 1, 2-home/_home-works.scss */
     .works {
       width: 60%; } }
 
-/* line 38, 2-home/_home-works.scss */
 .card {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
-/* line 43, 2-home/_home-works.scss */
 .card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
-/* line 49, 2-home/_home-works.scss */
 .section-alzie {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #6954bb;
   background-image: url("/assets/img/ibeam/ibeam-card.png");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 50%, contain;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   height: 30em;
   margin: 5% 0;
   padding: 2em;
   position: relative;
   text-align: center;
   width: auto; }
-  /* line 65, 2-home/_home-works.scss */
   .section-alzie p {
     margin-top: 1.6666666666666667em; }
   @media only screen and (min-width: 320px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       background-image: none;
       height: auto;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      justify-content: center;
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       background-image: url("/assets/img/alzie/alzie-phone.png");
       background-position: right 30px center;
       background-repeat: no-repeat;
       background-size: 35%, contain;
       height: 15em;
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
+      justify-content: flex-start;
       margin: 20px 20px 40px;
       width: auto; } }
   @media only screen and (min-width: 1024px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       background-size: 35%, contain;
       height: 18em; } }
   @media only screen and (min-width: 1200px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       height: 25em; } }
   @media only screen and (min-width: 1600px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       background-size: 32%, contain;
       height: 20em; } }
   @media only screen and (min-width: 1800px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       height: 25em; } }
   @media only screen and (min-width: 2304px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       height: 30em; } }
   @media only screen and (min-width: 2880px) {
-    /* line 49, 2-home/_home-works.scss */
     .section-alzie {
       height: 40em; } }
 
-/* line 122, 2-home/_home-works.scss */
 .section-alzie-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 0 0 0 10%;
   text-align: left; }
   @media only screen and (min-width: 320px) {
-    /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-                  -ms-grid-row-align: center;
-              align-items: center;
+      align-items: center;
       padding: 0;
       text-align: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-                  -ms-grid-row-align: flex-start;
-              align-items: flex-start;
+      align-items: flex-start;
       font-size: .7em;
       padding: 0 0 0 5%;
       text-align: left;
       width: 45%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
       font-size: 1em;
       width: 40%; } }
   @media only screen and (min-width: 1200px) {
-    /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
       font-size: 1em;
       width: 35%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 122, 2-home/_home-works.scss */
     .section-alzie-text {
       width: 30%; } }
-  /* line 161, 2-home/_home-works.scss */
   .section-alzie-text .project-desc {
     color: #fff; }
 
-/* line 166, 2-home/_home-works.scss */
 .btn-alzie {
   color: #fff;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   margin-top: 1.6666666666666667em;
   padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 166, 2-home/_home-works.scss */
     .btn-alzie {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; } }
+      justify-content: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 166, 2-home/_home-works.scss */
     .btn-alzie {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start; } }
-
-/* line 183, 2-home/_home-works.scss */
-.btn-alzie:hover {
-  opacity: .5; }
+      justify-content: flex-start; } }
 
 @media only screen and (min-width: 320px) {
-  /* line 187, 2-home/_home-works.scss */
   .alzie-logo {
     width: 25%; } }
+
 @media only screen and (min-width: 768px) {
-  /* line 187, 2-home/_home-works.scss */
   .alzie-logo {
     width: 25%; } }
+
 @media only screen and (min-width: 1024px) {
-  /* line 187, 2-home/_home-works.scss */
   .alzie-logo {
     width: 30%; } }
 
-/* line 207, 2-home/_home-works.scss */
 .section-ibeam {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #f5f5f5;
   background-image: url("/assets/img/ibeam/ibeam-card.png");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 50%, contain;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   height: 30em;
   margin: 5% 0;
   padding: 2em;
   position: relative;
   text-align: center;
   width: auto; }
-  /* line 223, 2-home/_home-works.scss */
   .section-ibeam p {
     margin-top: 1.6666666666666667em; }
   @media only screen and (min-width: 320px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       background-image: none;
       height: auto;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      justify-content: center;
       margin: 20px 20px 40px; } }
   @media only screen and (min-width: 768px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       background-image: url("/assets/img/ibeam/ibeam-card.png");
       background-position: top right;
       background-repeat: no-repeat;
       background-size: 50%, contain;
       height: 15em;
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
+      justify-content: flex-start;
       margin: 20px;
       width: auto; } }
   @media only screen and (min-width: 1024px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 18em; } }
   @media only screen and (min-width: 1200px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 25em; } }
   @media only screen and (min-width: 1800px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 25em; } }
   @media only screen and (min-width: 2304px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 30em; } }
   @media only screen and (min-width: 2880px) {
-    /* line 207, 2-home/_home-works.scss */
     .section-ibeam {
       height: 40em; } }
 
-/* line 273, 2-home/_home-works.scss */
 .section-ibeam-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 0 0 0 10%;
   text-align: left; }
   @media only screen and (min-width: 320px) {
-    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-                  -ms-grid-row-align: center;
-              align-items: center;
+      align-items: center;
       padding: 0;
       text-align: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-                  -ms-grid-row-align: flex-start;
-              align-items: flex-start;
+      align-items: flex-start;
       font-size: .7em;
       padding: 0 0 0 5%;
       text-align: left;
       width: 45%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       font-size: 1em;
       width: 40%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       width: auto; } }
   @media only screen and (min-width: 2880px) {
-    /* line 273, 2-home/_home-works.scss */
     .section-ibeam-text {
       width: 30%; } }
-  /* line 311, 2-home/_home-works.scss */
   .section-ibeam-text .project-desc {
     color: #5b5b5b; }
 
-/* line 316, 2-home/_home-works.scss */
 .btn-ibeam {
   color: #5b5b5b;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   margin-top: 1.6666666666666667em;
   padding: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 316, 2-home/_home-works.scss */
     .btn-ibeam {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; } }
+      justify-content: center; } }
   @media only screen and (min-width: 768px) {
-    /* line 316, 2-home/_home-works.scss */
     .btn-ibeam {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start; } }
+      justify-content: flex-start; } }
 
-/* line 333, 2-home/_home-works.scss */
 .btn-ibeam:hover {
   opacity: .5; }
 
-/* line 337, 2-home/_home-works.scss */
 .ibeam-logo {
   width: 40%; }
   @media only screen and (min-width: 320px) {
-    /* line 337, 2-home/_home-works.scss */
     .ibeam-logo {
       width: 40%; } }
   @media only screen and (min-width: 768px) {
-    /* line 337, 2-home/_home-works.scss */
     .ibeam-logo {
       width: 30%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 337, 2-home/_home-works.scss */
     .ibeam-logo {
       width: 45%; } }
 
-/* line 358, 2-home/_home-works.scss */
 .section-opensource {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin: 0;
   padding: 0; }
-  /* line 364, 2-home/_home-works.scss */
   .section-opensource p {
     margin-top: 1.6666666666666667em; }
   @media only screen and (min-width: 320px) {
-    /* line 358, 2-home/_home-works.scss */
     .section-opensource {
       display: block;
       font-size: 1em; } }
   @media only screen and (min-width: 768px) {
-    /* line 358, 2-home/_home-works.scss */
     .section-opensource {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       font-size: .7em; } }
   @media only screen and (min-width: 1024px) {
-    /* line 358, 2-home/_home-works.scss */
     .section-opensource {
       font-size: 1em; } }
 
-/* line 386, 2-home/_home-works.scss */
 .section-codebuddies {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex: 1;
+  flex-direction: column;
   margin: 0 10px 20px 0;
   padding: 10% 5%;
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px 20px 40px; }
-      /* line 401, 2-home/_home-works.scss */
       .section-codebuddies .cb-logo {
         width: 60%; } }
   @media only screen and (min-width: 768px) {
-    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8% 5%; }
-      /* line 411, 2-home/_home-works.scss */
       .section-codebuddies .cb-logo {
         width: 80%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1800px) {
-    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 8%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 386, 2-home/_home-works.scss */
     .section-codebuddies {
       margin: 20px;
       padding: 5% 12%; } }
-  /* line 440, 2-home/_home-works.scss */
   .section-codebuddies .project-desc {
     color: #5b5b5b; }
-  /* line 444, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies {
     color: #5b5b5b;
     margin-top: 1.6666666666666667em; }
-  /* line 449, 2-home/_home-works.scss */
   .section-codebuddies .btn-codebuddies:hover {
     opacity: .5; }
 
-/* line 454, 2-home/_home-works.scss */
 .section-odin {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex: 1;
+  flex-direction: column;
   margin: 0 0 20px 10px;
   padding: 10% 5%;
   text-align: center;
   width: auto; }
   @media only screen and (min-width: 320px) {
-    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px 20px 40px; }
-      /* line 469, 2-home/_home-works.scss */
       .section-odin .odin-logo {
         width: 60%; } }
   @media only screen and (min-width: 768px) {
-    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8% 5%; }
-      /* line 479, 2-home/_home-works.scss */
       .section-odin .odin-logo {
         width: 80%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1600px) {
-    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8% 5%; } }
   @media only screen and (min-width: 1800px) {
-    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 8%; } }
   @media only screen and (min-width: 2880px) {
-    /* line 454, 2-home/_home-works.scss */
     .section-odin {
       margin: 20px;
       padding: 5% 12%; } }
-  /* line 508, 2-home/_home-works.scss */
   .section-odin .project-desc {
     color: #5b5b5b; }
-  /* line 512, 2-home/_home-works.scss */
   .section-odin .btn-odin {
     color: #5b5b5b;
     margin-top: 1.6666666666666667em; }
-  /* line 517, 2-home/_home-works.scss */
   .section-odin .btn-odin:hover {
     opacity: .5; }
 
-/* line 4, 2-home/_home-experiments.scss */
 .parallax-window {
   max-height: 30em;
   overflow: hidden;
@@ -1253,39 +961,26 @@ svg:hover .linkedin {
   text-align: center;
   width: 100%; }
 
-/* line 12, 2-home/_home-experiments.scss */
 .parallax-static-content {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 8em 0;
   position: relative;
   text-align: center;
   z-index: 9; }
-  /* line 21, 2-home/_home-experiments.scss */
   .parallax-static-content h2,
   .parallax-static-content p {
     color: #fff;
     margin: 0; }
   @media only screen and (min-width: 320px) {
-    /* line 12, 2-home/_home-experiments.scss */
     .parallax-static-content {
       padding: 8em 2em; } }
   @media only screen and (min-width: 768px) {
-    /* line 12, 2-home/_home-experiments.scss */
     .parallax-static-content {
       padding: 8em 2em; } }
 
-/* line 38, 2-home/_home-experiments.scss */
 .parallax-background {
-  background: -webkit-linear-gradient(right, rgba(190, 147, 197, 0.7), rgba(123, 198, 204, 0.7)), url("/assets/img/home-experiments-bg.png");
   background: linear-gradient(to left, rgba(190, 147, 197, 0.7), rgba(123, 198, 204, 0.7)), url("/assets/img/home-experiments-bg.png");
   background-color: #f8f8f8;
   background-position: top;
@@ -1297,91 +992,47 @@ svg:hover .linkedin {
   top: -10em;
   width: 100%; }
   @media only screen and (min-width: 320px) {
-    /* line 38, 2-home/_home-experiments.scss */
     .parallax-background {
       background-size: 100%; } }
 
-/* line 61, 2-home/_home-experiments.scss */
 .btn-experiments {
   color: #fff;
   margin-top: 1.6666666666666667em; }
 
-/* line 66, 2-home/_home-experiments.scss */
-.btn-experiments:hover {
-  opacity: .5; }
-
-/* line 1, 2-home/_home-footer.scss */
 .section-footer {
   background-color: #fff;
   padding: 8em 0 4em; }
 
-/* line 6, 2-home/_home-footer.scss */
 .footer {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  flex-direction: column;
+  justify-content: center; }
 
-/* line 13, 2-home/_home-footer.scss */
 .footer-contact {
   font-weight: 100; }
 
-/* line 17, 2-home/_home-footer.scss */
 .btn-contact {
   color: #5b5b5b;
   margin-bottom: 8em;
   margin-top: 1.6666666666666667em; }
 
-/* line 23, 2-home/_home-footer.scss */
-.btn-contact:hover {
-  opacity: .5; }
-
-/* line 1, 3-other/_contact.scss */
 .contact {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 10% 0;
   width: 100%; }
 
-/* line 10, 3-other/_contact.scss */
 .greeting {
   color: #5b5b5b;
   font-weight: 700;
   text-align: center; }
 
-/* line 1, 3-other/_experiments.scss */
 .experiments-sections {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   width: 100vw; }
