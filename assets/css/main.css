@@ -1012,19 +1012,6 @@ svg:hover .linkedin {
   color: #5b5b5b;
   margin-bottom: 8em; }
 
-.contact {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10% 0;
-  width: 100%; }
-
-.greeting {
-  color: #5b5b5b;
-  font-weight: 700;
-  text-align: center; }
-
 .experiments-sections {
   align-items: center;
   display: flex;
