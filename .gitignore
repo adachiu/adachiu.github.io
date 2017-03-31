@@ -48,6 +48,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+.scss-lint.yml
 
 .bundle
 Gemfile
